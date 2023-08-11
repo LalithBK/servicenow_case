@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">f34c981ee960311029c4b784c523ce4f</canvas>
+        <component display_value="Pie">96abe7e38d8790718022c5630a92176c</component>
+        <component_props>{"configVersion":"22.1.8","showDataLabels":true,"dataLabelsType":"both","truncationType":"end","showRegister":true,"registerPosition":"bottom","registerOrientation":"horizontal","showRegisterOnSameLine":false,"showRegisterValue":false,"legendHorizontalAlignment":"center","legendExpandToFit":false,"showRegisterPercentage":false,"colorConfig":{"type":"palette","palette":"585ea749d29e215aa027c452b0eabe2e"},"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Case","sourceType":"table","tableOrViewName":"x_1070541_case_0_case","id":"dGFibGV4XzEwNzA1NDFfY2FzZV8wX2Nhc2UxNjkxNzQ5NTY0Nzg5","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"wrapTitle":false,"showHeaderSeparator":true,"headerTitle":"Case Types","description":"Overview of all the case types","showBorder":true,"bareBorder":false,"showDataPassthrough":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4XzEwNzA1NDFfY2FzZV8wX2Nhc2UxNjkxNzQ5NTY0Nzg5","id":"ZEdGaWJHVjRYekV3TnpBMU5ERmZZMkZ6WlY4d1gyTmhjMlV4TmpreE56UTVOVFkwTnpnNTE2OTE3NDk1NjY2OTQ=","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":[{"maxNumberOfGroups":"ALL","numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"groupBy":[{"dataSource":"dGFibGV4XzEwNzA1NDFfY2FzZV8wX2Nhc2UxNjkxNzQ5NTY0Nzg5","groupByField":"case_type","isRange":false,"isChoice":true,"isPaBucket":false}]}],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":null,"showChangePercentage":null,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":null,"showSparkline":false,"showMetricLabel":null,"showThreshold":false,"showComment":false,"showTotalValue":null,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":null,"enableDrilldown":true,"refreshFrequency":false,"filterConfigurations":[],"showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":null,"period":"M","dateFormat":"default"}</component_props>
+        <h>19</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 08:59:34</sys_created_on>
+        <sys_id>a2bc301ec3e0311066fa241ce00131ea</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>par_dashboard_widget_a2bc301ec3e0311066fa241ce00131ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 10:29:01</sys_updated_on>
+        <visualization/>
+        <w>8</w>
+        <x>0</x>
+        <y>12</y>
+    </par_dashboard_widget>
+</record_update>

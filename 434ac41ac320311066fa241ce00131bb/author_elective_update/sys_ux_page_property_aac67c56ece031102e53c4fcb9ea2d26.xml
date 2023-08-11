@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>A default view for Demo generated</description>
+        <name>view</name>
+        <page display_value="Demo">62c67c561de0311082f7f64368a7e823</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 08:33:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>aac67c56ece031102e53c4fcb9ea2d26</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>view</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_ux_page_property_aac67c56ece031102e53c4fcb9ea2d26</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 08:33:43</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1070541_case_0.62c67c561de0311082f7f64368a7e823.root.view</unique_name>
+        <value>Workspace-Demo-0</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=aac67c56ece031102e53c4fcb9ea2d26"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case">434ac41ac320311066fa241ce00131bb</application>
+        <file_path/>
+        <instance_id>b3deb2d6dbcf4110f492c597059619c2</instance_id>
+        <instance_name>dev126550</instance_name>
+        <name>sys_ux_page_property_aac67c56ece031102e53c4fcb9ea2d26</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>A default view for Demo generated</description><name>view</name><page display_value="Demo">62c67c561de0311082f7f64368a7e823</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-11 08:33:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>aac67c56ece031102e53c4fcb9ea2d26</sys_id><sys_mod_count>1</sys_mod_count><sys_name>view</sys_name><sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package><sys_policy/><sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope><sys_update_name>sys_ux_page_property_aac67c56ece031102e53c4fcb9ea2d26</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-11 08:33:43</sys_updated_on><type>string</type><unique_name>x_1070541_case_0.62c67c561de0311082f7f64368a7e823.root.view</unique_name><value>Workspace-Demo-0</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=aac67c56ece031102e53c4fcb9ea2d26"/></record_update>]]></payload>
+        <payload_hash>-1671152737</payload_hash>
+        <record_name>view</record_name>
+        <reverted_from/>
+        <source>8f4ac41ac320311066fa241ce00131bc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 08:33:43</sys_created_on>
+        <sys_id>33c6fc56c3e0311066fa241ce001314b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189e3bae3990000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 08:33:43</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>7bc6fc56dde031109574c8098774bb4a</update_guid>
+        <update_guid_history>7bc6fc56dde031109574c8098774bb4a:-1671152737,33c6fc5643e031103295570c90800e24:-1248768459</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 08:35:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>22233c43ab80435d903582e12ca5ef19</sys_id>
+        <sys_metadata>aac67c56ece031102e53c4fcb9ea2d26</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>view</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_scope_delete display_value="">0e2cee2ef4ec4e5c84df03602f067710</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_aac67c56ece031102e53c4fcb9ea2d26</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_aac67c56ece031102e53c4fcb9ea2d26">33c6fc56c3e0311066fa241ce001314b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 08:35:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
