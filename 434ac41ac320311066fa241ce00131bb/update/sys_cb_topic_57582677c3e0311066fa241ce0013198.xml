@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description>Perform asynchronous AI Search</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.41",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "851ae9f5530148ecbada32c68866bca2": {
+          "id": "851ae9f5530148ecbada32c68866bca2",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          },
+          "parameters": [
+            {
+              "type": "String",
+              "value": "",
+              "id": "c0ff010f942b41eeaf4cdb8a7f3175af",
+              "name": "Search Term",
+              "referenced": true,
+              "required": true,
+              "disabled": true
+            },
+            {
+              "type": "Reference",
+              "value": "",
+              "id": "dcad9a2a2bca428aa552a06cfdd71025",
+              "name": "Search Application Configuration",
+              "table": "sys_search_context_config",
+              "referenced": true,
+              "disabled": true,
+              "hint": "(Optional) Use a custom Search Application Configuration",
+              "query": ""
+            }
+          ],
+          "variableIds": [
+            "c0ff010f942b41eeaf4cdb8a7f3175af",
+            "dcad9a2a2bca428aa552a06cfdd71025"
+          ]
+        },
+        "649780c0cac342fdb5c8b4440cd16a65": {
+          "id": "649780c0cac342fdb5c8b4440cd16a65",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          },
+          "outputVariables": [
+            {
+              "key": "Genius_Results",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaVars.geniusResults}}",
+                        "displayValue": "Script Variables➛geniusResults"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "disabled": true
+            },
+            {
+              "key": "Search_Results",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaVars.searchResults}}",
+                        "displayValue": "Script Variables➛searchResults"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "disabled": true
+            },
+            {
+              "key": "Search_Metadata",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaVars.searchMetadata}}",
+                        "displayValue": "Script Variables➛searchMetadata"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "disabled": true
+            }
+          ]
+        },
+        "c11f8a41e8e849538937e2e5054d3e89": {
+          "id": "c11f8a41e8e849538937e2e5054d3e89",
+          "name": "Run AI Search",
+          "invocationType": "action",
+          "stepType": "FlowAction",
+          "actionSpoke": "global",
+          "actionSpokeAction": "2eaf23715b621010a76b04d13d81c7b5",
+          "actionWaitType": "sync",
+          "actionRunAs": "session_user",
+          "actionSecureField": false,
+          "actionSelectSecureField": "",
+          "actionPromptSecureField": {
+            "mode": "simple",
+            "value": ""
+          },
+          "actionConfirmPromptSecureField": {
+            "mode": "simple",
+            "value": ""
+          },
+          "actionNonSecureChannelMessage": {
+            "mode": "simple",
+            "value": ""
+          },
+          "actionInputs": {
+            "input-search_term": {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.search_term}}",
+                        "displayValue": "Input Variables➛Search Term"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "string"
+            },
+            "input-context_profile_id": {
+              "value": "(function execute() {\n    return vaSystem.getContextProfileId();\n})()",
+              "mode": "script"
+            },
+            "input-search_context_id": {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.search_application_configuration}}",
+                        "displayValue": "Input Variables➛Search Application Configuration"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "string"
+            },
+            "input-logging_context": {
+              "value": "(function execute() {\n    return vaVars.loggingContext;\n})()\n",
+              "mode": "script"
+            },
+            "input-locale": {
+              "value": "(function execute() {\n    return vaSystem.getRequesterLocale();\n})()\n",
+              "mode": "script"
+            },
+            "input-start_time": {
+              "value": "(function execute() {\n    return vaVars.startTime;\n})()\n",
+              "mode": "script"
+            }
+          },
+          "actionOutputs": {
+            "output-search_result": [
+              {
+                "id": "309fc1942b1a42fc814fbd4ae6c16ed8",
+                "mapping": "Search Result",
+                "value": "Search Result",
+                "disabled": false,
+                "type": "json"
+              }
+            ],
+            "output-__action_status__": [
+              {
+                "id": "6787e35c81b3485a98cff5c253f0f5d4",
+                "mapping": "Action Status",
+                "value": "Action Status",
+                "disabled": false,
+                "type": "object"
+              }
+            ],
+            "output-__dont_treat_as_error__": [
+              {
+                "id": "08b316cc701a401a837d1408b8d947f7",
+                "mapping": "Don't Treat as Error",
+                "value": "Don't Treat as Error",
+                "disabled": false,
+                "type": "boolean"
+              }
+            ],
+            "output-end_time": [
+              {
+                "id": "fbac258c6f3342e781df0ed57c69efec",
+                "mapping": "End time",
+                "value": "End time",
+                "disabled": false,
+                "type": "string"
+              }
+            ]
+          },
+          "actionDefinition": {
+            "id": "2eaf23715b621010a76b04d13d81c7b5",
+            "latest_snapshot_id": "2eaf23715b621010a76b04d13d81c7b5",
+            "type": "action",
+            "name": "atlas_search",
+            "label": "AI Search",
+            "scope_id": "global",
+            "description": "Perform asynchronous AI Search",
+            "category": "",
+            "parameters_have_loaded": true,
+            "input_parameters": [
+              {
+                "supported_input_modes": [
+                  "script",
+                  "data_pill",
+                  "data_entry"
+                ],
+                "name": "search_term",
+                "label": "search_term",
+                "type": "string",
+                "order": 1,
+                "required": true
+              },
+              {
+                "supported_input_modes": [
+                  "script",
+                  "data_pill",
+                  "data_entry"
+                ],
+                "name": "context_profile_id",
+                "label": "context_profile_id",
+                "type": "string",
+                "order": 2,
+                "required": true
+              },
+              {
+                "supported_input_modes": [
+                  "script",
+                  "data_pill",
+                  "data_entry"
+                ],
+                "name": "search_context_id",
+                "label": "search_context_id",
+                "type": "string",
+                "order": 3,
+                "required": false
+              },
+              {
+                "supported_input_modes": [
+                  "script",
+                  "data_pill",
+                  "data_entry"
+                ],
+                "name": "logging_context",
+                "label": "logging_context",
+                "type": "string",
+                "order": 4,
+                "required": false
+              },
+              {
+                "supported_input_modes": [
+                  "script",
+                  "data_pill",
+                  "data_entry"
+                ],
+                "name": "locale",
+                "label": "locale",
+                "type": "string",
+                "order": 5,
+                "required": false
+              },
+              {
+                "supported_input_modes": [
+                  "script",
+                  "data_pill",
+                  "data_entry"
+                ],
+                "name": "start_time",
+                "label": "start_time",
+                "type": "string",
+                "order": 6,
+                "required": true
+              }
+            ],
+            "output_parameters": [
+              {
+                "name": "search_result",
+                "label": "Search Result",
+                "type": "json",
+                "order": 1,
+                "required": true
+              },
+              {
+                "name": "__action_status__",
+                "label": "Action Status",
+                "type": "object",
+                "order": 2,
+                "required": false
+              },
+              {
+                "name": "__dont_treat_as_error__",
+                "label": "Don't Treat as Error",
+                "type": "boolean",
+                "order": 3,
+                "required": false
+              },
+              {
+                "name": "end_time",
+                "label": "End time",
+                "type": "string",
+                "order": 4,
+                "required": true
+              }
+            ]
+          },
+          "subflowSecureField": false,
+          "subflowSelectSecureField": "",
+          "subflowPromptSecureField": {
+            "mode": "simple",
+            "value": ""
+          },
+          "subflowConfirmPromptSecureField": {
+            "mode": "simple",
+            "value": ""
+          },
+          "subflowNonSecureChannelMessage": {
+            "mode": "simple",
+            "value": "This action is not supported on this channel."
+          },
+          "variableIds": [
+            "309fc1942b1a42fc814fbd4ae6c16ed8",
+            "6787e35c81b3485a98cff5c253f0f5d4",
+            "08b316cc701a401a837d1408b8d947f7",
+            "fbac258c6f3342e781df0ed57c69efec"
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "permissionsNote": "By default, the Action executes based on the permissions of the user who initiated the conversation. For elevated privileges, you can set to System User."
+        },
+        "1d915740480a41789e4c8308d4b4489e": {
+          "id": "1d915740480a41789e4c8308d4b4489e",
+          "name": "Process Results",
+          "script": "(function execute() {\n    var now = new GlideDateTime().getNumericValue();\n    var elapsedTime = now - vaVars.startTime;\n    var returnTime = now - vaInputs.end_time;\n    var logger = global.VAAISearchHelperTokyo.getLogger(vaVars.loggingContext);\n    logger.debug('AI Search FDIH action time: {0}ms', elapsedTime);\n    logger.debug('AI Search FDIH returned to VA in {0}ms', returnTime);\n\n    var results = JSON.stringify(global.VAAISearchHelperTokyo.filterResultsForLoggedInUser(\n        vaInputs.search_result.toString(), vaSystem, vaVars.loggingContext));\n\n    var processedResults = global.VAAISearchHelperTokyo.processResults(results, vaSystem, vaInputs, vaVars);\n    vaVars.searchMetadata = processedResults.searchMetadata;\n    vaVars.geniusResults = processedResults.geniusSearchResults;\n    vaVars.searchResults = processedResults.searchResults;\n    logger.debug('AI Search performed on server in {0}ms',\n        JSON.parse(vaVars.searchMetadata).glide_signals.searchResultMetadata.responseTimeInMs);\n\n})()",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "8c4f4570a4134ec0966bc1d48d672040": {
+          "id": "8c4f4570a4134ec0966bc1d48d672040",
+          "name": "Collect Search Info",
+          "script": "(function execute() {\n    vaVars.loggingContext = JSON.stringify(global.VAAISearchHelperTokyo.getLoggingContext(vaSystem));\n    global.VAAISearchHelperTokyo.getLogger(vaVars.loggingContext).debug('Starting \"Run AI Search\" topic block');\n    vaVars.startTime = new GlideDateTime().getNumericValue();\n    vaVars.isSearchAvailable = global.VAAISearchHelperTokyo.isSearchEnabled(vaVars.loggingContext);\n\n    // This script has to run before any other operations to collect correct info.\n    // If the node runs under the platform thread, the info can be incorrect.\n    vaVars.session_id = gs.getSessionID();\n    vaVars.user_id = vaInputs.user.getValue();\n    vaVars.is_logged_in = gs.getSession().isLoggedIn();\n    vaVars.language = gs.getSession().getLanguage();\n    //AI Search start timestamp\n    vaVars.time = global.VAClickMetrics.getCurrentTime();\n})()\n",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "mode": "script",
+            "value": ""
+          }
+        },
+        "6e2d2926f31c44049809f9337850e3e0": {
+          "id": "6e2d2926f31c44049809f9337850e3e0",
+          "stepType": "Decision",
+          "name": "Search Enabled?"
+        },
+        "294f439959c14475a801f205d5841d58": {
+          "id": "294f439959c14475a801f205d5841d58",
+          "stepType": "ImplicitEnd"
+        }
+      },
+      "edges": [
+        {
+          "id": "ab93a35bb29244cc853b3c0cd0728d0c",
+          "edgeType": "Edge",
+          "source": "c11f8a41e8e849538937e2e5054d3e89",
+          "target": "1d915740480a41789e4c8308d4b4489e",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "49076bac56094e58be8e26e4ec73fbd7",
+          "edgeType": "Edge",
+          "source": "1d915740480a41789e4c8308d4b4489e",
+          "target": "649780c0cac342fdb5c8b4440cd16a65",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d91b5079b2b44ca0bba9e5862c12b1ca",
+          "edgeType": "Edge",
+          "source": "851ae9f5530148ecbada32c68866bca2",
+          "target": "8c4f4570a4134ec0966bc1d48d672040",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "b1516ec8278e49c9a4ecd48f3a0ddb73",
+          "edgeType": "Edge",
+          "source": "8c4f4570a4134ec0966bc1d48d672040",
+          "target": "6e2d2926f31c44049809f9337850e3e0",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "071ebf1074f547ab954d28cc5f4a7ca9",
+          "edgeType": "Branch",
+          "source": "6e2d2926f31c44049809f9337850e3e0",
+          "target": "c11f8a41e8e849538937e2e5054d3e89",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return vaVars.isSearchAvailable;\n})()\n"
+          },
+          "label": "Yes"
+        },
+        {
+          "id": "08c3113bf95c445eb00066a72c84c21b",
+          "edgeType": "Branch",
+          "source": "6e2d2926f31c44049809f9337850e3e0",
+          "target": "649780c0cac342fdb5c8b4440cd16a65",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "script",
+            "value": "(function execute() {\n    return !vaVars.isSearchAvailable;\n})()\n"
+          },
+          "label": "No"
+        },
+        {
+          "id": "403a32c2e2cc4389981af5f891b8658f",
+          "edgeType": "Branch",
+          "source": "6e2d2926f31c44049809f9337850e3e0",
+          "target": "294f439959c14475a801f205d5841d58",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "mode": "query",
+            "value": ""
+          },
+          "label": "Always"
+        }
+      ]
+    }
+  },
+  "variables": {
+    "3f63993778b0422d85500f8304a2d312": {
+      "category": "vaInputs",
+      "id": "3f63993778b0422d85500f8304a2d312",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "c0ff010f942b41eeaf4cdb8a7f3175af": {
+      "id": "c0ff010f942b41eeaf4cdb8a7f3175af",
+      "name": "search_term",
+      "label": "Search Term",
+      "defaultValue": "",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "input"
+      }
+    },
+    "dcad9a2a2bca428aa552a06cfdd71025": {
+      "id": "dcad9a2a2bca428aa552a06cfdd71025",
+      "name": "search_application_configuration",
+      "label": "Search Application Configuration",
+      "defaultValue": "",
+      "varType": "reference",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "input"
+      },
+      "table": "sys_search_context_config"
+    },
+    "e8f015fae3484e48ba5823e1ca791039": {
+      "id": "e8f015fae3484e48ba5823e1ca791039",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "searchMetadata",
+      "label": "searchMetadata",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "0ac14d1049494ba485b60b934a91b8c3": {
+      "id": "0ac14d1049494ba485b60b934a91b8c3",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "geniusResults",
+      "label": "geniusResults",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "eda030cbda544287939e0b46785387c3": {
+      "id": "eda030cbda544287939e0b46785387c3",
+      "value": {
+        "value": "",
+        "mode": "simple"
+      },
+      "name": "searchResults",
+      "label": "searchResults",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "309fc1942b1a42fc814fbd4ae6c16ed8": {
+      "id": "309fc1942b1a42fc814fbd4ae6c16ed8",
+      "name": "search_result",
+      "label": "Search Result",
+      "defaultValue": "Search Result",
+      "varType": "json",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      }
+    },
+    "6787e35c81b3485a98cff5c253f0f5d4": {
+      "id": "6787e35c81b3485a98cff5c253f0f5d4",
+      "name": "action_status",
+      "label": "Action Status",
+      "defaultValue": "Action Status",
+      "varType": "object",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      }
+    },
+    "08b316cc701a401a837d1408b8d947f7": {
+      "id": "08b316cc701a401a837d1408b8d947f7",
+      "name": "don_t_treat_as_error",
+      "label": "Don't Treat As Error",
+      "defaultValue": "Don't Treat as Error",
+      "varType": "boolean",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      }
+    },
+    "fbac258c6f3342e781df0ed57c69efec": {
+      "id": "fbac258c6f3342e781df0ed57c69efec",
+      "name": "end_time",
+      "label": "End Time",
+      "defaultValue": "End time",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      }
+    }
+  }
+}</graph>
+        <key_phrases/>
+        <library>true</library>
+        <live_agent>false</live_agent>
+        <name>Case AI search</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id>f9e444ee53113010af71ddeeff7b1223</source_topic_id>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-16 08:40:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>57582677c3e0311066fa241ce0013198</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Case AI search</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_cb_topic_57582677c3e0311066fa241ce0013198</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-16 08:41:30</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>TOPIC_BLOCK</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=57582677c3e0311066fa241ce0013198"/>
+</record_update>

@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>true</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description>Virtual Agent for Cases</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.41",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "5b1a2312b5344589893d1546e3a730f9": {
+          "id": "5b1a2312b5344589893d1546e3a730f9",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Hello, Are you facing any issues?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "eece201009594d0887e17712171b41b4": {
+          "id": "eece201009594d0887e17712171b41b4",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Thank you for you patience and co-operation"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "c76538d0ee714982a8aab506ca4dbd09": {
+          "stepType": "ReferenceChoicePrompt",
+          "name": "get case",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Creating a Case"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "0d2de3d3c3ff4d3f874aa00607098969",
+          "id": "c76538d0ee714982a8aab506ca4dbd09",
+          "mode": "glide_record",
+          "script": "",
+          "metadataScript": "",
+          "cardData": {},
+          "noRecordsResponseMsg": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Sorry there are no related records"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": "sys_created_by={{vaInputs.user}}"
+          },
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "457ce13c34d1469db34343502c41c38a": {
+          "id": "457ce13c34d1469db34343502c41c38a",
+          "stepType": "Prompt",
+          "name": "Do you want to create a case?",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please select 'Yes' to create 'No' to end the chat"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.do_you_want_to_create_a_case_}}",
+                      "displayValue": "Input Variables➛Do You Want To Create A Case?"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "72ba1e5f109c41bb8fac7d28842f7e9a"
+        },
+        "cd39863765484efdaeb4f1f674ef01c3": {
+          "id": "cd39863765484efdaeb4f1f674ef01c3",
+          "stepType": "TableOutput",
+          "name": "Records found",
+          "header": {
+            "value": "",
+            "mode": "simple"
+          },
+          "displayColumnHeaders": true,
+          "dataSourceType": "table",
+          "script": "",
+          "tableName": "x_1070541_case_0_case",
+          "sortByColumns": [
+            {
+              "column": "number",
+              "sortDirection": "ASC"
+            }
+          ],
+          "tableCondition": {
+            "mode": "glide_query",
+            "value": "sys_created_by={{vaInputs.user}}"
+          },
+          "columns": [
+            {
+              "key": "number",
+              "value": "Number",
+              "label": "Number"
+            }
+          ],
+          "noRecordsResponseMsg": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "No records found"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "197f8d4bc0ee4d44bbb774c7f0daa17c",
+          "edgeType": "Edge",
+          "source": "457ce13c34d1469db34343502c41c38a",
+          "target": "c76538d0ee714982a8aab506ca4dbd09",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ecfeb14ca78242f7b264ad7ca95118a1",
+          "edgeType": "Edge",
+          "source": "5b1a2312b5344589893d1546e3a730f9",
+          "target": "457ce13c34d1469db34343502c41c38a",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "580dbdfec37744a1b3ac08de12b538e7",
+          "edgeType": "Edge",
+          "source": "c76538d0ee714982a8aab506ca4dbd09",
+          "target": "cd39863765484efdaeb4f1f674ef01c3",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "1f6b5d2f234e4cb985937fbd34662306",
+          "edgeType": "Edge",
+          "source": "cd39863765484efdaeb4f1f674ef01c3",
+          "target": "eece201009594d0887e17712171b41b4",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "0d2de3d3c3ff4d3f874aa00607098969": {
+      "id": "0d2de3d3c3ff4d3f874aa00607098969",
+      "name": "get_case",
+      "label": "Get Case",
+      "varType": "reference",
+      "table": "x_1070541_case_0_case",
+      "category": "vaInputs"
+    },
+    "72ba1e5f109c41bb8fac7d28842f7e9a": {
+      "id": "72ba1e5f109c41bb8fac7d28842f7e9a",
+      "name": "do_you_want_to_create_a_case_",
+      "label": "Do You Want To Create A Case?",
+      "varType": "boolean",
+      "secure": false,
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>Case Chat</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Case Chat</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles>x_1070541_case_0.case_admin,x_1070541_case_0.case_agent</roles>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-16 08:19:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>276322f3c3e0311066fa241ce001314a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Case Chat</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_cb_topic_276322f3c3e0311066fa241ce001314a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-16 08:32:41</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="DELETE" query="document_key=276322f3c3e0311066fa241ce001314a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case">434ac41ac320311066fa241ce00131bb</application>
+        <file_path/>
+        <instance_id>b3deb2d6dbcf4110f492c597059619c2</instance_id>
+        <instance_name>dev126550</instance_name>
+        <name>sys_cb_topic_276322f3c3e0311066fa241ce001314a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><applicability_mode>query</applicability_mode><autopilot_topic>true</autopilot_topic><category/><channels/><connect_queue/><description>Virtual Agent for Cases</description><expose_on_palette>false</expose_on_palette><flexible_conversation_switching>false</flexible_conversation_switching><graph>{
+  "graph_api_version": "1.0.41",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "5b1a2312b5344589893d1546e3a730f9": {
+          "id": "5b1a2312b5344589893d1546e3a730f9",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Hello, Are you facing any issues?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "eece201009594d0887e17712171b41b4": {
+          "id": "eece201009594d0887e17712171b41b4",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Thank you for you patience and co-operation"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          }
+        },
+        "c76538d0ee714982a8aab506ca4dbd09": {
+          "stepType": "ReferenceChoicePrompt",
+          "name": "get case",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Creating a Case"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "0d2de3d3c3ff4d3f874aa00607098969",
+          "id": "c76538d0ee714982a8aab506ca4dbd09",
+          "mode": "glide_record",
+          "script": "",
+          "metadataScript": "",
+          "cardData": {},
+          "noRecordsResponseMsg": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Sorry there are no related records"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": "sys_created_by={{vaInputs.user}}"
+          },
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "457ce13c34d1469db34343502c41c38a": {
+          "id": "457ce13c34d1469db34343502c41c38a",
+          "stepType": "Prompt",
+          "name": "Do you want to create a case?",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please select 'Yes' to create 'No' to end the chat"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "type": "datapill",
+                    "dataPill": {
+                      "value": "{{vaInputs.do_you_want_to_create_a_case_}}",
+                      "displayValue": "Input Variables➛Do You Want To Create A Case?"
+                    },
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "72ba1e5f109c41bb8fac7d28842f7e9a"
+        },
+        "cd39863765484efdaeb4f1f674ef01c3": {
+          "id": "cd39863765484efdaeb4f1f674ef01c3",
+          "stepType": "TableOutput",
+          "name": "Records found",
+          "header": {
+            "value": "",
+            "mode": "simple"
+          },
+          "displayColumnHeaders": true,
+          "dataSourceType": "table",
+          "script": "",
+          "tableName": "x_1070541_case_0_case",
+          "sortByColumns": [
+            {
+              "column": "number",
+              "sortDirection": "ASC"
+            }
+          ],
+          "tableCondition": {
+            "mode": "glide_query",
+            "value": "sys_created_by={{vaInputs.user}}"
+          },
+          "columns": [
+            {
+              "key": "number",
+              "value": "Number",
+              "label": "Number"
+            }
+          ],
+          "noRecordsResponseMsg": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "No records found"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "197f8d4bc0ee4d44bbb774c7f0daa17c",
+          "edgeType": "Edge",
+          "source": "457ce13c34d1469db34343502c41c38a",
+          "target": "c76538d0ee714982a8aab506ca4dbd09",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ecfeb14ca78242f7b264ad7ca95118a1",
+          "edgeType": "Edge",
+          "source": "5b1a2312b5344589893d1546e3a730f9",
+          "target": "457ce13c34d1469db34343502c41c38a",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "580dbdfec37744a1b3ac08de12b538e7",
+          "edgeType": "Edge",
+          "source": "c76538d0ee714982a8aab506ca4dbd09",
+          "target": "cd39863765484efdaeb4f1f674ef01c3",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "1f6b5d2f234e4cb985937fbd34662306",
+          "edgeType": "Edge",
+          "source": "cd39863765484efdaeb4f1f674ef01c3",
+          "target": "eece201009594d0887e17712171b41b4",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "0d2de3d3c3ff4d3f874aa00607098969": {
+      "id": "0d2de3d3c3ff4d3f874aa00607098969",
+      "name": "get_case",
+      "label": "Get Case",
+      "varType": "reference",
+      "table": "x_1070541_case_0_case",
+      "category": "vaInputs"
+    },
+    "72ba1e5f109c41bb8fac7d28842f7e9a": {
+      "id": "72ba1e5f109c41bb8fac7d28842f7e9a",
+      "name": "do_you_want_to_create_a_case_",
+      "label": "Do You Want To Create A Case?",
+      "varType": "boolean",
+      "secure": false,
+      "category": "vaInputs"
+    }
+  }
+}</graph><key_phrases>Case Chat</key_phrases><library>false</library><live_agent>false</live_agent><name>Case Chat</name><nlu_intent/><nlu_intent_label/><nlu_model/><nlu_model_label/><nlu_provider/><palette_label/><roles>x_1070541_case_0.case_admin,x_1070541_case_0.case_agent</roles><secure_custom_input_control>false</secure_custom_input_control><source_topic_id/><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-16 08:19:10</sys_created_on><sys_domain>global</sys_domain><sys_id>276322f3c3e0311066fa241ce001314a</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Case Chat</sys_name><sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package><sys_policy/><sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope><sys_update_name>sys_cb_topic_276322f3c3e0311066fa241ce001314a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-16 08:32:41</sys_updated_on><triggerable_by_notification>false</triggerable_by_notification><type>STANDARD</type><variables/></sys_cb_topic><sys_variable_value action="delete_multiple" query="document_key=276322f3c3e0311066fa241ce001314a"/></record_update>]]></payload>
+        <payload_hash>-885742709</payload_hash>
+        <record_name>Case Chat</record_name>
+        <reverted_from/>
+        <source>b17e211ec3a4311066fa241ce0013164</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-16 08:32:41</sys_created_on>
+        <sys_id>698626b7c3e0311066fa241ce0013168</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189fd79bd740000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-16 08:32:41</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>618626b78ae03110f9eafb0bafb04a68</update_guid>
+        <update_guid_history>618626b78ae03110f9eafb0bafb04a68:-885742709,5b75e2f3ede031107097642eb18620c7:976619237,b363eaf394e03110f5e517e092f1ae51:757663249</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-16 08:40:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>16276e6b2ce04f538ea75958143ad841</sys_id>
+        <sys_metadata>276322f3c3e0311066fa241ce001314a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Case Chat</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_scope_delete display_value="">0e2cee2ef4ec4e5c84df03602f067710</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_276322f3c3e0311066fa241ce001314a</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_276322f3c3e0311066fa241ce001314a">698626b7c3e0311066fa241ce0013168</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-16 08:40:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
