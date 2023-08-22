@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="DELETE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Records Data Item</name>
+        <offline_query_condition/>
+        <offline_query_condition_script/>
+        <query_condition table="x_1070541_case_0_case">^ORDERBYnumber<item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="number"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 14:41:57</sys_created_on>
+        <sys_id>98a48d1cc3b8311066fa241ce001317f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Records Data Item</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_sg_data_item_98a48d1cc3b8311066fa241ce001317f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 17:57:08</sys_updated_on>
+        <table>x_1070541_case_0_case</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="DELETE" query="documentkey=98a48d1cc3b8311066fa241ce001317f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case">434ac41ac320311066fa241ce00131bb</application>
+        <file_path/>
+        <instance_id>b3deb2d6dbcf4110f492c597059619c2</instance_id>
+        <instance_name>dev126550</instance_name>
+        <name>sys_sg_data_item_98a48d1cc3b8311066fa241ce001317f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item"><sys_sg_data_item action="INSERT_OR_UPDATE"><condition_type>declarative</condition_type><description/><group_by/><instance_relative_url_qc/><name>Records Data Item</name><offline_query_condition/><offline_query_condition_script/><query_condition table="x_1070541_case_0_case">^ORDERBYnumber<item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="number"/></query_condition><query_condition_script/><sys_class_name>sys_sg_data_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-17 14:41:57</sys_created_on><sys_id>98a48d1cc3b8311066fa241ce001317f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Records Data Item</sys_name><sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package><sys_policy/><sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope><sys_update_name>sys_sg_data_item_98a48d1cc3b8311066fa241ce001317f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-17 17:57:08</sys_updated_on><table>x_1070541_case_0_case</table></sys_sg_data_item><sys_translated_text action="delete_multiple" query="documentkey=98a48d1cc3b8311066fa241ce001317f"/></record_update>]]></payload>
+        <payload_hash>404372302</payload_hash>
+        <record_name>Records Data Item</record_name>
+        <reverted_from/>
+        <source>b17e211ec3a4311066fa241ce0013164</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 17:57:09</sys_created_on>
+        <sys_id>a7413550c3bc311066fa241ce0013120</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a04a4e1b10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 17:57:09</sys_updated_on>
+        <type>Data Item</type>
+        <update_guid>af413550d1bc3110c6641c7594bdf41f</update_guid>
+        <update_guid_history>af413550d1bc3110c6641c7594bdf41f:404372302,bca4015c53b83110bbe9a0553136908a:727104796</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 18:07:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_data_item">sys_sg_data_item</sys_db_object>
+        <sys_id>31fd0a251a8543809d7f28a8b9e76a99</sys_id>
+        <sys_metadata>98a48d1cc3b8311066fa241ce001317f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Records Data Item</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_scope_delete display_value="">0e2cee2ef4ec4e5c84df03602f067710</sys_scope_delete>
+        <sys_update_name>sys_sg_data_item_98a48d1cc3b8311066fa241ce001317f</sys_update_name>
+        <sys_update_version display_value="sys_sg_data_item_98a48d1cc3b8311066fa241ce001317f">a7413550c3bc311066fa241ce0013120</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 18:07:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

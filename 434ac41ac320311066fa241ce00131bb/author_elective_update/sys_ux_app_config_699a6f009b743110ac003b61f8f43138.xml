@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config">
+    <sys_ux_app_config action="DELETE">
+        <active>true</active>
+        <custom_icon/>
+        <default_route_type/>
+        <description>Case workspace for mobile</description>
+        <encode_query_string>false</encode_query_string>
+        <icon display_value="align-center-fill">align_center_fill</icon>
+        <landing_path>home</landing_path>
+        <name>Case Mobile Config</name>
+        <prefetch_limits/>
+        <sys_class_name>sys_ux_app_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 08:08:34</sys_created_on>
+        <sys_id>699a6f009b743110ac003b61f8f43138</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Case Mobile Config</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_ux_app_config_699a6f009b743110ac003b61f8f43138</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 13:50:28</sys_updated_on>
+    </sys_ux_app_config>
+    <sys_translated_text action="DELETE" query="documentkey=699a6f009b743110ac003b61f8f43138"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case">434ac41ac320311066fa241ce00131bb</application>
+        <file_path/>
+        <instance_id>b3deb2d6dbcf4110f492c597059619c2</instance_id>
+        <instance_name>dev126550</instance_name>
+        <name>sys_ux_app_config_699a6f009b743110ac003b61f8f43138</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config"><sys_ux_app_config action="INSERT_OR_UPDATE"><active>true</active><custom_icon/><default_route_type/><description>Case workspace for mobile</description><encode_query_string>false</encode_query_string><icon display_value="align-center-fill">align_center_fill</icon><landing_path>home</landing_path><name>Case Mobile Config</name><prefetch_limits/><sys_class_name>sys_ux_app_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-17 08:08:34</sys_created_on><sys_id>699a6f009b743110ac003b61f8f43138</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Case Mobile Config</sys_name><sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package><sys_policy/><sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope><sys_update_name>sys_ux_app_config_699a6f009b743110ac003b61f8f43138</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-17 13:50:28</sys_updated_on></sys_ux_app_config><sys_translated_text action="delete_multiple" query="documentkey=699a6f009b743110ac003b61f8f43138"/></record_update>]]></payload>
+        <payload_hash>1947410175</payload_hash>
+        <record_name>Case Mobile Config</record_name>
+        <reverted_from/>
+        <source>b17e211ec3a4311066fa241ce0013164</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 13:50:28</sys_created_on>
+        <sys_id>8ad874dcc378311066fa241ce0013134</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a03c309fe0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 13:50:28</sys_updated_on>
+        <type>UX App Configuration</type>
+        <update_guid>82d874dc6c78311031d6cdc8ce9e4934</update_guid>
+        <update_guid_history>82d874dc6c78311031d6cdc8ce9e4934:1947410175,86d8fc5cc97831106d9a9666c27ae5f7:-1619691357</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 13:55:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_config">sys_ux_app_config</sys_db_object>
+        <sys_id>0723f3d54f3944819c1c3f8513528f21</sys_id>
+        <sys_metadata>699a6f009b743110ac003b61f8f43138</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Case Mobile Config</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_scope_delete display_value="">0e2cee2ef4ec4e5c84df03602f067710</sys_scope_delete>
+        <sys_update_name>sys_ux_app_config_699a6f009b743110ac003b61f8f43138</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_config_699a6f009b743110ac003b61f8f43138">8ad874dcc378311066fa241ce0013134</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 13:55:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

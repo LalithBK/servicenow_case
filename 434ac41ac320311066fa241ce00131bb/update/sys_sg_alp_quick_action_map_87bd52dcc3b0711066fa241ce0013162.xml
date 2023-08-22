@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_alp_quick_action_map">
+    <sys_sg_alp_quick_action_map action="INSERT_OR_UPDATE">
+        <applet_launcher display_value="Case Module">9f90ded4c330711066fa241ce001317f</applet_launcher>
+        <order>10</order>
+        <quick_action_button display_value="Create Case Record">cbbd52dcc3b0711066fa241ce001315f</quick_action_button>
+        <sys_class_name>sys_sg_alp_quick_action_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 21:11:15</sys_created_on>
+        <sys_id>87bd52dcc3b0711066fa241ce0013162</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_sg_alp_quick_action_map_87bd52dcc3b0711066fa241ce0013162</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 21:11:15</sys_updated_on>
+    </sys_sg_alp_quick_action_map>
+</record_update>

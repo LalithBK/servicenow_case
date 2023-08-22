@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_chart_screen">
+    <sys_sg_chart_screen action="DELETE">
+        <available_offline>false</available_offline>
+        <description>Chart for Case Analysis</description>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="Case Analysis">e340511cc3f8311066fa241ce00131ea</icon>
+        <name>Case Analysis - Chart</name>
+        <report display_value="Case Types">56fc81d4c3f8311066fa241ce00131b4</report>
+        <roles_override/>
+        <sys_class_name>sys_sg_chart_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 15:32:58</sys_created_on>
+        <sys_id>2340511cc3f8311066fa241ce00131f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Case Analysis - Chart</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_sg_chart_screen_2340511cc3f8311066fa241ce00131f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 15:32:58</sys_updated_on>
+        <tool_tip>true</tool_tip>
+        <type>report</type>
+        <use_last_point>true</use_last_point>
+        <widget/>
+    </sys_sg_chart_screen>
+    <sys_translated_text action="DELETE" query="documentkey=2340511cc3f8311066fa241ce00131f9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case">434ac41ac320311066fa241ce00131bb</application>
+        <file_path/>
+        <instance_id>b3deb2d6dbcf4110f492c597059619c2</instance_id>
+        <instance_name>dev126550</instance_name>
+        <name>sys_sg_chart_screen_2340511cc3f8311066fa241ce00131f9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_chart_screen"><sys_sg_chart_screen action="INSERT_OR_UPDATE"><available_offline>false</available_offline><description>Chart for Case Analysis</description><dynamic_prefetch_count/><empty_state/><fetch_type>not_required</fetch_type><filter/><hide_filters>false</hide_filters><hide_screen_name>false</hide_screen_name><icon display_value="Case Analysis">e340511cc3f8311066fa241ce00131ea</icon><name>Case Analysis - Chart</name><report display_value="Case Types">56fc81d4c3f8311066fa241ce00131b4</report><roles_override/><sys_class_name>sys_sg_chart_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-17 15:32:58</sys_created_on><sys_id>2340511cc3f8311066fa241ce00131f9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Case Analysis - Chart</sys_name><sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package><sys_policy/><sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope><sys_update_name>sys_sg_chart_screen_2340511cc3f8311066fa241ce00131f9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-17 15:32:58</sys_updated_on><tool_tip>true</tool_tip><type>report</type><use_last_point>true</use_last_point><widget/></sys_sg_chart_screen><sys_translated_text action="delete_multiple" query="documentkey=2340511cc3f8311066fa241ce00131f9"/></record_update>]]></payload>
+        <payload_hash>281672833</payload_hash>
+        <record_name>Case Analysis - Chart</record_name>
+        <reverted_from/>
+        <source>b17e211ec3a4311066fa241ce0013164</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 15:32:58</sys_created_on>
+        <sys_id>a740511cc3f8311066fa241ce00131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a0420e1820000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 15:32:58</sys_updated_on>
+        <type>Chart screen</type>
+        <update_guid>ef40511cdaf831105cfe475fdd88d8fa</update_guid>
+        <update_guid_history>ef40511cdaf831105cfe475fdd88d8fa:281672833</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 18:06:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_chart_screen">sys_sg_chart_screen</sys_db_object>
+        <sys_id>a59a4f7ecef64fb49db91559a1358d90</sys_id>
+        <sys_metadata>2340511cc3f8311066fa241ce00131f9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Case Analysis - Chart</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_scope_delete display_value="">0e2cee2ef4ec4e5c84df03602f067710</sys_scope_delete>
+        <sys_update_name>sys_sg_chart_screen_2340511cc3f8311066fa241ce00131f9</sys_update_name>
+        <sys_update_version display_value="sys_sg_chart_screen_2340511cc3f8311066fa241ce00131f9">a740511cc3f8311066fa241ce00131fb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 18:06:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

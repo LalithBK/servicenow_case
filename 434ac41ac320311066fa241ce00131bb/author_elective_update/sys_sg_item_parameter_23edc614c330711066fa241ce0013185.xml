@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="DELETE">
+        <default_value/>
+        <name>Records cmdb_ci</name>
+        <parent>e3edc614c330711066fa241ce001317c</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 20:02:12</sys_created_on>
+        <sys_id>23edc614c330711066fa241ce0013185</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Records cmdb_ci</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_23edc614c330711066fa241ce0013185</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 20:02:12</sys_updated_on>
+        <type>string</type>
+    </sys_sg_item_parameter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case">434ac41ac320311066fa241ce00131bb</application>
+        <file_path/>
+        <instance_id>b3deb2d6dbcf4110f492c597059619c2</instance_id>
+        <instance_name>dev126550</instance_name>
+        <name>sys_sg_item_parameter_23edc614c330711066fa241ce0013185</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter"><sys_sg_item_parameter action="INSERT_OR_UPDATE"><default_value/><name>Records cmdb_ci</name><parent>e3edc614c330711066fa241ce001317c</parent><parent_table>sys_sg_write_back_action_item</parent_table><sys_class_name>sys_sg_item_parameter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-17 20:02:12</sys_created_on><sys_id>23edc614c330711066fa241ce0013185</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Records cmdb_ci</sys_name><sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package><sys_policy/><sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope><sys_update_name>sys_sg_item_parameter_23edc614c330711066fa241ce0013185</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-17 20:02:12</sys_updated_on><type>string</type></sys_sg_item_parameter></record_update>]]></payload>
+        <payload_hash>-1007535822</payload_hash>
+        <record_name>Records cmdb_ci</record_name>
+        <reverted_from/>
+        <source>b17e211ec3a4311066fa241ce0013164</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 20:02:13</sys_created_on>
+        <sys_id>afed0a14c330711066fa241ce0013188</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a051763200000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 20:02:13</sys_updated_on>
+        <type>Data parameter</type>
+        <update_guid>2bed0a14e9307110ee586d3c738a5f88</update_guid>
+        <update_guid_history>2bed0a14e9307110ee586d3c738a5f88:-1007535822</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 20:10:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_item_parameter">sys_sg_item_parameter</sys_db_object>
+        <sys_id>bfc86ed395cb4900a747a0a1d5bd6400</sys_id>
+        <sys_metadata>23edc614c330711066fa241ce0013185</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Records cmdb_ci</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_scope_delete display_value="">0e2cee2ef4ec4e5c84df03602f067710</sys_scope_delete>
+        <sys_update_name>sys_sg_item_parameter_23edc614c330711066fa241ce0013185</sys_update_name>
+        <sys_update_version display_value="sys_sg_item_parameter_23edc614c330711066fa241ce0013185">afed0a14c330711066fa241ce0013188</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 20:10:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

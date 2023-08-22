@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="DELETE">
+        <active>true</active>
+        <button display_value="Edit Button (Records)">11fbab80c374311066fa241ce00131c6</button>
+        <color_theme/>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>Edit</label>
+        <location>top</location>
+        <name>Edit</name>
+        <order/>
+        <parent>9dfbab80c374311066fa241ce001312e</parent>
+        <parent_table>sys_sg_form_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 08:14:32</sys_created_on>
+        <sys_id>55fbab80c374311066fa241ce00131f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_sg_button_instance_55fbab80c374311066fa241ce00131f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 08:14:32</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="DELETE" query="documentkey=55fbab80c374311066fa241ce00131f2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case">434ac41ac320311066fa241ce00131bb</application>
+        <file_path/>
+        <instance_id>b3deb2d6dbcf4110f492c597059619c2</instance_id>
+        <instance_name>dev126550</instance_name>
+        <name>sys_sg_button_instance_55fbab80c374311066fa241ce00131f2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance"><sys_sg_button_instance action="INSERT_OR_UPDATE"><active>true</active><button display_value="Edit Button (Records)">11fbab80c374311066fa241ce00131c6</button><color_theme/><description/><disable_offline>false</disable_offline><field_name/><icon/><label>Edit</label><location>top</location><name>Edit</name><order/><parent>9dfbab80c374311066fa241ce001312e</parent><parent_table>sys_sg_form_screen</parent_table><sys_class_name>sys_sg_button_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-17 08:14:32</sys_created_on><sys_id>55fbab80c374311066fa241ce00131f2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Edit</sys_name><sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package><sys_policy/><sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope><sys_update_name>sys_sg_button_instance_55fbab80c374311066fa241ce00131f2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-17 08:14:32</sys_updated_on><table/></sys_sg_button_instance><sys_translated_text action="delete_multiple" query="documentkey=55fbab80c374311066fa241ce00131f2"/></record_update>]]></payload>
+        <payload_hash>920626801</payload_hash>
+        <record_name>Edit</record_name>
+        <reverted_from/>
+        <source>b17e211ec3a4311066fa241ce0013164</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 08:14:35</sys_created_on>
+        <sys_id>b1fb6f80c374311066fa241ce00131ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a028f87600000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 08:14:35</sys_updated_on>
+        <type>Function instance</type>
+        <update_guid>3dfb6f807a743110ef14a281a4bceaaa</update_guid>
+        <update_guid_history>3dfb6f807a743110ef14a281a4bceaaa:920626801</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 13:59:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_button_instance">sys_sg_button_instance</sys_db_object>
+        <sys_id>b6649a7f48d14bcc915eb3ca22fc0264</sys_id>
+        <sys_metadata>55fbab80c374311066fa241ce00131f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Edit</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_scope_delete display_value="">0e2cee2ef4ec4e5c84df03602f067710</sys_scope_delete>
+        <sys_update_name>sys_sg_button_instance_55fbab80c374311066fa241ce00131f2</sys_update_name>
+        <sys_update_version display_value="sys_sg_button_instance_55fbab80c374311066fa241ce00131f2">b1fb6f80c374311066fa241ce00131ab</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 13:59:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

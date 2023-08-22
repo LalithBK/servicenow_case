@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
     <sys_ux_screen action="INSERT_OR_UPDATE">
         <active>true</active>
-        <app_config display_value="Case Config">949b589ab4603110c797063638fbd788</app_config>
+        <app_config/>
         <description/>
         <event_mappings>[ ]</event_mappings>
         <macroponent display_value="Case Record Page">a69b1c9ac360311066fa241ce00131a0</macroponent>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>My cases Record Screen View Config Element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 21:52:47</sys_created_on>
+        <sys_id>17372658c3f0711066fa241ce00131f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My cases Record Screen View Config Element</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_17372658c3f0711066fa241ce00131f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 21:52:47</sys_updated_on>
+        <view_config display_value="My cases Record Screen Card">17372658c3f0711066fa241ce00131f4</view_config>
+        <view_template_slot display_value="image_01">caf849b041275010f877183fc9b8be4e</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

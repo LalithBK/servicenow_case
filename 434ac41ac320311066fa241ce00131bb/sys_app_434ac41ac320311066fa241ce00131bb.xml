@@ -46,6 +46,7 @@
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
+        <encryption_context/>
         <file_name>Case.png</file_name>
         <hash>93cf9fedb025c5801991d0674c72c9dad65f02fc937ad2b9d94ebc9c8461dbe0</hash>
         <image_height/>

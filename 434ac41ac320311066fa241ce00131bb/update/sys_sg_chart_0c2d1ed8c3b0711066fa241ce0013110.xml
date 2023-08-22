@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_chart">
+    <sys_sg_chart action="INSERT_OR_UPDATE">
+        <jump_to_screen display_value="Nav Case Priority Analysis - Chart">cd2d9ed8c3b0711066fa241ce00131b6</jump_to_screen>
+        <name>Case Priority Analysis</name>
+        <report display_value="Case Criticality">4681191cc3f8311066fa241ce00131d2</report>
+        <sys_class_name>sys_sg_chart</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 21:08:36</sys_created_on>
+        <sys_id>0c2d1ed8c3b0711066fa241ce0013110</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Case Priority Analysis</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_sg_chart_0c2d1ed8c3b0711066fa241ce0013110</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 21:08:40</sys_updated_on>
+        <title/>
+        <type>report</type>
+        <widget/>
+    </sys_sg_chart>
+</record_update>

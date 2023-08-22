@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_filter_condition_attribute">
+    <sys_sg_filter_condition_attribute action="DELETE">
+        <description/>
+        <name display_value="Display Type">c9ef07da73320010ed095a7b1bf6a7a2</name>
+        <sys_class_name>sys_sg_filter_condition_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 16:49:27</sys_created_on>
+        <sys_id>ccd129dcc33c311066fa241ce0013188</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c9ef07da73320010ed095a7b1bf6a7a2</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_sg_filter_condition_attribute_ccd129dcc33c311066fa241ce0013188</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 16:49:27</sys_updated_on>
+        <value>Text</value>
+    </sys_sg_filter_condition_attribute>
+    <sys_translated_text action="DELETE" query="documentkey=ccd129dcc33c311066fa241ce0013188"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case">434ac41ac320311066fa241ce00131bb</application>
+        <file_path/>
+        <instance_id>b3deb2d6dbcf4110f492c597059619c2</instance_id>
+        <instance_name>dev126550</instance_name>
+        <name>sys_sg_filter_condition_attribute_ccd129dcc33c311066fa241ce0013188</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_filter_condition_attribute"><sys_sg_filter_condition_attribute action="INSERT_OR_UPDATE"><description/><name display_value="Display Type">c9ef07da73320010ed095a7b1bf6a7a2</name><sys_class_name>sys_sg_filter_condition_attribute</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-17 16:49:27</sys_created_on><sys_id>ccd129dcc33c311066fa241ce0013188</sys_id><sys_mod_count>0</sys_mod_count><sys_name>c9ef07da73320010ed095a7b1bf6a7a2</sys_name><sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package><sys_policy/><sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope><sys_update_name>sys_sg_filter_condition_attribute_ccd129dcc33c311066fa241ce0013188</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-17 16:49:27</sys_updated_on><value>Text</value></sys_sg_filter_condition_attribute><sys_translated_text action="delete_multiple" query="documentkey=ccd129dcc33c311066fa241ce0013188"/></record_update>]]></payload>
+        <payload_hash>1296530681</payload_hash>
+        <record_name>c9ef07da73320010ed095a7b1bf6a7a2</record_name>
+        <reverted_from/>
+        <source>b17e211ec3a4311066fa241ce0013164</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 16:49:27</sys_created_on>
+        <sys_id>c8d129dcc33c311066fa241ce001318b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a0466e8e30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 16:49:27</sys_updated_on>
+        <type>Filter Condition Attribute</type>
+        <update_guid>04d129dc4a3c3110be9173078c52dd8b</update_guid>
+        <update_guid_history>04d129dc4a3c3110be9173078c52dd8b:1296530681</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 18:06:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_filter_condition_attribute">sys_sg_filter_condition_attribute</sys_db_object>
+        <sys_id>2dd1fefa491c48acbc8548a241b179f9</sys_id>
+        <sys_metadata>ccd129dcc33c311066fa241ce0013188</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c9ef07da73320010ed095a7b1bf6a7a2</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_scope_delete display_value="">0e2cee2ef4ec4e5c84df03602f067710</sys_scope_delete>
+        <sys_update_name>sys_sg_filter_condition_attribute_ccd129dcc33c311066fa241ce0013188</sys_update_name>
+        <sys_update_version display_value="sys_sg_filter_condition_attribute_ccd129dcc33c311066fa241ce0013188">c8d129dcc33c311066fa241ce001318b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 18:06:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

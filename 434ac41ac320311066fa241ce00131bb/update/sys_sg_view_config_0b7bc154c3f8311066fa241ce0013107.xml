@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config">
+    <sys_sg_view_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Application usage - List Card view config</description>
+        <name>Application usage - List Card</name>
+        <sys_class_name>sys_sg_view_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 15:11:54</sys_created_on>
+        <sys_id>0b7bc154c3f8311066fa241ce0013107</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Application usage - List Card</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_sg_view_config_0b7bc154c3f8311066fa241ce0013107</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 15:11:54</sys_updated_on>
+        <table>ua_app_usage</table>
+        <template display_value="Studio Applet Provider Default Template">5260f507c7321010100f2f3bf4c26053</template>
+    </sys_sg_view_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=0b7bc154c3f8311066fa241ce0013107"/>
+</record_update>
