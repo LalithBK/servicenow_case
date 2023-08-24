@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>false</can_write>
+        <dashboard display_value="Demo">66c67c562ae03110409d9a1ade098622</dashboard>
+        <group/>
+        <role display_value="x_1070541_case_0.case_user" name="x_1070541_case_0.case_user">4b4ac41ac320311066fa241ce00131df</role>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 08:33:41</sys_created_on>
+        <sys_id>13c6bc56c3e0311066fa241ce0013105</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>66c67c562ae03110409d9a1ade098622</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>par_dashboard_permission_13c6bc56c3e0311066fa241ce0013105</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 08:33:41</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

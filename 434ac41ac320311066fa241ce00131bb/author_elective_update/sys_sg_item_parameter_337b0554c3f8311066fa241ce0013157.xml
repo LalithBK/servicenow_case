@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter">
+    <sys_sg_item_parameter action="DELETE">
+        <default_value/>
+        <name>Usage Data for Applications insert_count</name>
+        <parent>2f7b0554c3f8311066fa241ce0013140</parent>
+        <parent_table>sys_sg_write_back_action_item</parent_table>
+        <sys_class_name>sys_sg_item_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 15:11:57</sys_created_on>
+        <sys_id>337b0554c3f8311066fa241ce0013157</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Usage Data for Applications insert_count</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_sg_item_parameter_337b0554c3f8311066fa241ce0013157</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 15:11:57</sys_updated_on>
+        <type>string</type>
+    </sys_sg_item_parameter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case">434ac41ac320311066fa241ce00131bb</application>
+        <file_path/>
+        <instance_id>b3deb2d6dbcf4110f492c597059619c2</instance_id>
+        <instance_name>dev126550</instance_name>
+        <name>sys_sg_item_parameter_337b0554c3f8311066fa241ce0013157</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_parameter"><sys_sg_item_parameter action="INSERT_OR_UPDATE"><default_value/><name>Usage Data for Applications insert_count</name><parent>2f7b0554c3f8311066fa241ce0013140</parent><parent_table>sys_sg_write_back_action_item</parent_table><sys_class_name>sys_sg_item_parameter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-17 15:11:57</sys_created_on><sys_id>337b0554c3f8311066fa241ce0013157</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Usage Data for Applications insert_count</sys_name><sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package><sys_policy/><sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope><sys_update_name>sys_sg_item_parameter_337b0554c3f8311066fa241ce0013157</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-17 15:11:57</sys_updated_on><type>string</type></sys_sg_item_parameter></record_update>]]></payload>
+        <payload_hash>-1824041967</payload_hash>
+        <record_name>Usage Data for Applications insert_count</record_name>
+        <reverted_from/>
+        <source>b17e211ec3a4311066fa241ce0013164</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 15:11:57</sys_created_on>
+        <sys_id>ff7b0554c3f8311066fa241ce0013158</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a040da3c20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 15:11:57</sys_updated_on>
+        <type>Data parameter</type>
+        <update_guid>3b7b055458f83110dea77a273cac1558</update_guid>
+        <update_guid_history>3b7b055458f83110dea77a273cac1558:-1824041967</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 15:28:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_item_parameter">sys_sg_item_parameter</sys_db_object>
+        <sys_id>45881e4e18dd492cac78d60ba50af864</sys_id>
+        <sys_metadata>337b0554c3f8311066fa241ce0013157</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Usage Data for Applications insert_count</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_scope_delete display_value="">0e2cee2ef4ec4e5c84df03602f067710</sys_scope_delete>
+        <sys_update_name>sys_sg_item_parameter_337b0554c3f8311066fa241ce0013157</sys_update_name>
+        <sys_update_version display_value="sys_sg_item_parameter_337b0554c3f8311066fa241ce0013157">ff7b0554c3f8311066fa241ce0013158</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 15:28:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="DELETE">
+        <active>true</active>
+        <button display_value="Launcher Button">2195c19cc3b8311066fa241ce0013188</button>
+        <color_theme/>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>New Case</label>
+        <location>top</location>
+        <name>New Case</name>
+        <order/>
+        <parent>eca4cd1cc3b8311066fa241ce0013132</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 14:41:58</sys_created_on>
+        <sys_id>68a4cd1cc3b8311066fa241ce001318d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>New Case</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_sg_button_instance_68a4cd1cc3b8311066fa241ce001318d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 17:17:42</sys_updated_on>
+        <table>x_1070541_case_0_case</table>
+    </sys_sg_button_instance>
+    <sys_translated_text action="DELETE" query="documentkey=68a4cd1cc3b8311066fa241ce001318d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case">434ac41ac320311066fa241ce00131bb</application>
+        <file_path/>
+        <instance_id>b3deb2d6dbcf4110f492c597059619c2</instance_id>
+        <instance_name>dev126550</instance_name>
+        <name>sys_sg_button_instance_68a4cd1cc3b8311066fa241ce001318d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance"><sys_sg_button_instance action="INSERT_OR_UPDATE"><active>true</active><button display_value="Launcher Button">2195c19cc3b8311066fa241ce0013188</button><color_theme/><description/><disable_offline>false</disable_offline><field_name/><icon/><label>New Case</label><location>top</location><name>New Case</name><order/><parent>eca4cd1cc3b8311066fa241ce0013132</parent><parent_table>sys_sg_screen</parent_table><sys_class_name>sys_sg_button_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-17 14:41:58</sys_created_on><sys_id>68a4cd1cc3b8311066fa241ce001318d</sys_id><sys_mod_count>2</sys_mod_count><sys_name>New Case</sys_name><sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package><sys_policy/><sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope><sys_update_name>sys_sg_button_instance_68a4cd1cc3b8311066fa241ce001318d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-17 17:17:42</sys_updated_on><table>x_1070541_case_0_case</table></sys_sg_button_instance><sys_translated_text action="delete_multiple" query="documentkey=68a4cd1cc3b8311066fa241ce001318d"/></record_update>]]></payload>
+        <payload_hash>1667261956</payload_hash>
+        <record_name>New Case</record_name>
+        <reverted_from/>
+        <source>b17e211ec3a4311066fa241ce0013164</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 17:17:42</sys_created_on>
+        <sys_id>3d486d94c37c311066fa241ce00131fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a0480c4400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 17:17:42</sys_updated_on>
+        <type>Function instance</type>
+        <update_guid>f1486d940e7c3110dc1b9b01826760fa</update_guid>
+        <update_guid_history>f1486d940e7c3110dc1b9b01826760fa:1667261956,13665dd0683c311080b553b3b9926c50:1474797657,45a4415c9ab83110d687fe7e42dcfe3f:2613761</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 17:18:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_button_instance">sys_sg_button_instance</sys_db_object>
+        <sys_id>7ace2257e06543f992be2e6ccb32c0e9</sys_id>
+        <sys_metadata>68a4cd1cc3b8311066fa241ce001318d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Case</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_scope_delete display_value="">0e2cee2ef4ec4e5c84df03602f067710</sys_scope_delete>
+        <sys_update_name>sys_sg_button_instance_68a4cd1cc3b8311066fa241ce001318d</sys_update_name>
+        <sys_update_version display_value="sys_sg_button_instance_68a4cd1cc3b8311066fa241ce001318d">3d486d94c37c311066fa241ce00131fa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 17:18:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

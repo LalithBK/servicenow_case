@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>listConfigId</name>
+        <page display_value="Case">949b589a276031106fdb899265446b82</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 06:34:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>5c9b589ae56031103947f0c8bc82e084</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>listConfigId</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_ux_page_property_5c9b589ae56031103947f0c8bc82e084</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 06:34:46</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1070541_case_0.949b589a276031106fdb899265446b82.root.listConfigId</unique_name>
+        <value>1d9b989ac360311066fa241ce0013194</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=5c9b589ae56031103947f0c8bc82e084"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case">434ac41ac320311066fa241ce00131bb</application>
+        <file_path/>
+        <instance_id>b3deb2d6dbcf4110f492c597059619c2</instance_id>
+        <instance_name>dev126550</instance_name>
+        <name>sys_ux_page_property_5c9b589ae56031103947f0c8bc82e084</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>listConfigId</name><page display_value="Case">949b589a276031106fdb899265446b82</page><required_translations>[]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-11 06:34:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>5c9b589ae56031103947f0c8bc82e084</sys_id><sys_mod_count>1</sys_mod_count><sys_name>listConfigId</sys_name><sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package><sys_policy/><sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope><sys_update_name>sys_ux_page_property_5c9b589ae56031103947f0c8bc82e084</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-11 06:34:46</sys_updated_on><type>string</type><unique_name>x_1070541_case_0.949b589a276031106fdb899265446b82.root.listConfigId</unique_name><value>1d9b989ac360311066fa241ce0013194</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=5c9b589ae56031103947f0c8bc82e084"/></record_update>]]></payload>
+        <payload_hash>-510239724</payload_hash>
+        <record_name>listConfigId</record_name>
+        <reverted_from/>
+        <source>8f4ac41ac320311066fa241ce00131bc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 06:34:46</sys_created_on>
+        <sys_id>559b989ac360311066fa241ce00131d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189e34dfcb00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 06:34:46</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>9d9b989a646031106c5271687f4b56d3</update_guid>
+        <update_guid_history>9d9b989a646031106c5271687f4b56d3:-510239724,999b989aab603110ddcb79c41900d7d2:863574464</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-11 06:36:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>8336ac7046ee43dcb7fcf9b04531e990</sys_id>
+        <sys_metadata>5c9b589ae56031103947f0c8bc82e084</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>listConfigId</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_scope_delete display_value="">0e2cee2ef4ec4e5c84df03602f067710</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_5c9b589ae56031103947f0c8bc82e084</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_5c9b589ae56031103947f0c8bc82e084">559b989ac360311066fa241ce00131d4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-11 06:36:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

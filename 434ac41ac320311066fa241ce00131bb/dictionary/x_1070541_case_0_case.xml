@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="969a0c1ac320311066fa241ce00131f3" extends="task" label="Case" max_length="40" name="x_1070541_case_0_case" text_index="true" type="collection">
+        <element choice="1" label="Case Type" mandatory="true" max_length="40" name="case_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Order" sequence="0" value="order"/>
+                <element inactive_on_update="false" label="Defect" sequence="1" value="defect"/>
+                <element inactive_on_update="false" label="Reimbursement" sequence="2" value="reimbursement"/>
+                <element inactive_on_update="false" label="Enquiry" sequence="3" value="enquiry"/>
+                <element inactive_on_update="false" label="Service" sequence="4" value="service"/>
+            </choice>
+        </element>
+        <element label="Created on" max_length="40" name="created_on" type="calendar_date_time"/>
+    </element>
+</database>

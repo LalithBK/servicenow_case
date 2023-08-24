@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon">
+    <sys_sg_icon action="DELETE">
+        <icon>{"Name":"Plus Solid","Value":"e921","FontName":"now-mobile-icons-buttons","FontColor":"#2e2e2e","BackgroundColor":"#2e2e2e"}</icon>
+        <name>Plus Solid</name>
+        <sys_class_name>sys_sg_icon</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 08:38:45</sys_created_on>
+        <sys_id>cc817b08c374311066fa241ce0013184</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Plus Solid</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_sg_icon_cc817b08c374311066fa241ce0013184</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 08:38:45</sys_updated_on>
+        <type>font</type>
+    </sys_sg_icon>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case">434ac41ac320311066fa241ce00131bb</application>
+        <file_path/>
+        <instance_id>b3deb2d6dbcf4110f492c597059619c2</instance_id>
+        <instance_name>dev126550</instance_name>
+        <name>sys_sg_icon_cc817b08c374311066fa241ce0013184</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon"><sys_sg_icon action="INSERT_OR_UPDATE"><icon>{"Name":"Plus Solid","Value":"e921","FontName":"now-mobile-icons-buttons","FontColor":"#2e2e2e","BackgroundColor":"#2e2e2e"}</icon><name>Plus Solid</name><sys_class_name>sys_sg_icon</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-17 08:38:45</sys_created_on><sys_id>cc817b08c374311066fa241ce0013184</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Plus Solid</sys_name><sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package><sys_policy/><sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope><sys_update_name>sys_sg_icon_cc817b08c374311066fa241ce0013184</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-17 08:38:45</sys_updated_on><type>font</type></sys_sg_icon></record_update>]]></payload>
+        <payload_hash>2018750775</payload_hash>
+        <record_name>Plus Solid</record_name>
+        <reverted_from/>
+        <source>b17e211ec3a4311066fa241ce0013164</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 08:38:45</sys_created_on>
+        <sys_id>84817b08c374311066fa241ce0013187</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a02a5a9990000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 08:38:45</sys_updated_on>
+        <type>Icon</type>
+        <update_guid>cc817b08847431103935b5082a71f086</update_guid>
+        <update_guid_history>cc817b08847431103935b5082a71f086:2018750775</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 13:57:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_icon">sys_sg_icon</sys_db_object>
+        <sys_id>2e0bacbc6cd24220a769b9130933e900</sys_id>
+        <sys_metadata>cc817b08c374311066fa241ce0013184</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Plus Solid</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_scope_delete display_value="">0e2cee2ef4ec4e5c84df03602f067710</sys_scope_delete>
+        <sys_update_name>sys_sg_icon_cc817b08c374311066fa241ce0013184</sys_update_name>
+        <sys_update_version display_value="sys_sg_icon_cc817b08c374311066fa241ce0013184">84817b08c374311066fa241ce0013187</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 13:57:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

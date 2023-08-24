@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="DELETE">
+        <active>true</active>
+        <button display_value="New Case (Record)">6cd47d94c3bc311066fa241ce001312d</button>
+        <color_theme/>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>Create Record</label>
+        <location>top</location>
+        <name>Create Record</name>
+        <order/>
+        <parent>acd43d94c3bc311066fa241ce00131d8</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 18:12:30</sys_created_on>
+        <sys_id>e0d47d94c3bc311066fa241ce0013168</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Create Record</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_sg_button_instance_e0d47d94c3bc311066fa241ce0013168</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 18:16:49</sys_updated_on>
+        <table>x_1070541_case_0_case</table>
+    </sys_sg_button_instance>
+    <sys_translated_text action="DELETE" query="documentkey=e0d47d94c3bc311066fa241ce0013168"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case">434ac41ac320311066fa241ce00131bb</application>
+        <file_path/>
+        <instance_id>b3deb2d6dbcf4110f492c597059619c2</instance_id>
+        <instance_name>dev126550</instance_name>
+        <name>sys_sg_button_instance_e0d47d94c3bc311066fa241ce0013168</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance"><sys_sg_button_instance action="INSERT_OR_UPDATE"><active>true</active><button display_value="New Case (Record)">6cd47d94c3bc311066fa241ce001312d</button><color_theme/><description/><disable_offline>false</disable_offline><field_name/><icon/><label>Create Record</label><location>top</location><name>Create Record</name><order/><parent>acd43d94c3bc311066fa241ce00131d8</parent><parent_table>sys_sg_screen</parent_table><sys_class_name>sys_sg_button_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-17 18:12:30</sys_created_on><sys_id>e0d47d94c3bc311066fa241ce0013168</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Create Record</sys_name><sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package><sys_policy/><sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope><sys_update_name>sys_sg_button_instance_e0d47d94c3bc311066fa241ce0013168</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-17 18:16:49</sys_updated_on><table>x_1070541_case_0_case</table></sys_sg_button_instance><sys_translated_text action="delete_multiple" query="documentkey=e0d47d94c3bc311066fa241ce0013168"/></record_update>]]></payload>
+        <payload_hash>1891505030</payload_hash>
+        <record_name>Create Record</record_name>
+        <reverted_from/>
+        <source>b17e211ec3a4311066fa241ce0013164</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 18:16:49</sys_created_on>
+        <sys_id>f7c53918c3bc311066fa241ce0013165</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a04b6e6490000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 18:16:49</sys_updated_on>
+        <type>Function instance</type>
+        <update_guid>ffc5391837bc3110c04073557aefcd64</update_guid>
+        <update_guid_history>ffc5391837bc3110c04073557aefcd64:1891505030,09d4fd9402bc3110020e9beb9b620c5c:-1224107036</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 18:46:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_button_instance">sys_sg_button_instance</sys_db_object>
+        <sys_id>4b6040fb2ef441d59f779d4d60221f19</sys_id>
+        <sys_metadata>e0d47d94c3bc311066fa241ce0013168</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Record</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_scope_delete display_value="">0e2cee2ef4ec4e5c84df03602f067710</sys_scope_delete>
+        <sys_update_name>sys_sg_button_instance_e0d47d94c3bc311066fa241ce0013168</sys_update_name>
+        <sys_update_version display_value="sys_sg_button_instance_e0d47d94c3bc311066fa241ce0013168">f7c53918c3bc311066fa241ce0013165</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 18:46:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_form_screen">
+    <sys_sg_form_screen action="INSERT_OR_UPDATE">
+        <alert/>
+        <available_offline>false</available_offline>
+        <data_item/>
+        <description>List screen for Application usage</description>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="Application usage - List">8b7bc154c3f8311066fa241ce0013101</icon>
+        <item_view/>
+        <name>Application usage - List Record Screen</name>
+        <override_context_with_data_item>false</override_context_with_data_item>
+        <roles_override/>
+        <segments_height>medium</segments_height>
+        <segments_min_width>medium</segments_min_width>
+        <sys_class_name>sys_sg_form_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 15:11:55</sys_created_on>
+        <sys_id>1f7bc154c3f8311066fa241ce0013163</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Application usage - List Record Screen</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_sg_form_screen_1f7bc154c3f8311066fa241ce0013163</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 15:11:55</sys_updated_on>
+        <table>ua_app_usage</table>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="Application usage - List Record Screen Card">0b7bc154c3f8311066fa241ce0013135</view_config>
+    </sys_sg_form_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=1f7bc154c3f8311066fa241ce0013163"/>
+</record_update>

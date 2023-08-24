@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Case Workspace Config">ff4c981e3b6031106b371392a528b354</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="oncall">b2992e7bc3e0311066fa241ce0013147</macroponent>
+        <macroponent_config>{
+  "onCallDateTime" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  }
+}</macroponent_config>
+        <name>Virtual agent</name>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Virtual Agent">4c6d96b3c3a0311066fa241ce00131b9</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-16 08:46:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>769966bbc3e0311066fa241ce0013176</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Virtual agent</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_ux_screen_769966bbc3e0311066fa241ce0013176</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-16 08:46:24</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=769966bbc3e0311066fa241ce0013176"/>
+</record_update>

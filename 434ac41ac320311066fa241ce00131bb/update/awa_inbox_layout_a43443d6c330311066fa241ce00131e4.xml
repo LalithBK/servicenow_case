@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="awa_inbox_layout">
+    <awa_inbox_layout action="INSERT_OR_UPDATE">
+        <card_layout><![CDATA[<img src="awa_card_layout_guide.png" width="349" height="300" />]]></card_layout>
+        <condition table="interaction">opened_forISNOTEMPTY^EQ<item endquery="false" field="opened_for" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <field_1>opened_for</field_1>
+        <field_2/>
+        <field_3/>
+        <field_4/>
+        <field_5/>
+        <is_default>false</is_default>
+        <name>User Chat Layout</name>
+        <order>100</order>
+        <service_channel display_value="Chat">a763c716c330311066fa241ce001318e</service_channel>
+        <short_description>Inbox layout for business-t0-consumer chats</short_description>
+        <sys_class_name>awa_inbox_layout</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-24 05:09:13</sys_created_on>
+        <sys_id>a43443d6c330311066fa241ce00131e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User Chat Layout</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>awa_inbox_layout_a43443d6c330311066fa241ce00131e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-24 05:09:13</sys_updated_on>
+    </awa_inbox_layout>
+</record_update>

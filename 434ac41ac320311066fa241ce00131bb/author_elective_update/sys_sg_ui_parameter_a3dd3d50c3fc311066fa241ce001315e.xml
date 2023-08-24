@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="DELETE">
+        <button display_value="Edit Button (Records)">a3dd3d50c3fc311066fa241ce001315d</button>
+        <button_parent_table>x_1070541_case_0_case</button_parent_table>
+        <carried>false</carried>
+        <constant/>
+        <default_value/>
+        <default_value_type>none</default_value_type>
+        <field_name>sys_id</field_name>
+        <input_source>auto</input_source>
+        <input_style>inline</input_style>
+        <input_type>source_field</input_type>
+        <mandatory>false</mandatory>
+        <max_entries/>
+        <multi_entry>false</multi_entry>
+        <multi_select>false</multi_select>
+        <name>Sys ID</name>
+        <order/>
+        <parameter_type>button</parameter_type>
+        <placeholder/>
+        <screen/>
+        <search_type>starts_with</search_type>
+        <source_field>sys_id</source_field>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 18:52:02</sys_created_on>
+        <sys_id>a3dd3d50c3fc311066fa241ce001315e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sys ID</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_a3dd3d50c3fc311066fa241ce001315e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 18:52:02</sys_updated_on>
+        <table_name>x_1070541_case_0_case</table_name>
+        <virtual_field_value>false</virtual_field_value>
+    </sys_sg_ui_parameter>
+    <sys_translated_text action="DELETE" query="documentkey=a3dd3d50c3fc311066fa241ce001315e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case">434ac41ac320311066fa241ce00131bb</application>
+        <file_path/>
+        <instance_id>b3deb2d6dbcf4110f492c597059619c2</instance_id>
+        <instance_name>dev126550</instance_name>
+        <name>sys_sg_ui_parameter_a3dd3d50c3fc311066fa241ce001315e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter"><sys_sg_ui_parameter action="INSERT_OR_UPDATE"><button display_value="Edit Button (Records)">a3dd3d50c3fc311066fa241ce001315d</button><button_parent_table>x_1070541_case_0_case</button_parent_table><carried>false</carried><constant/><default_value/><default_value_type>none</default_value_type><field_name>sys_id</field_name><input_source>auto</input_source><input_style>inline</input_style><input_type>source_field</input_type><mandatory>false</mandatory><max_entries/><multi_entry>false</multi_entry><multi_select>false</multi_select><name>Sys ID</name><order/><parameter_type>button</parameter_type><placeholder/><screen/><search_type>starts_with</search_type><source_field>sys_id</source_field><sys_class_name>sys_sg_ui_parameter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-17 18:52:02</sys_created_on><sys_id>a3dd3d50c3fc311066fa241ce001315e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sys ID</sys_name><sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package><sys_policy/><sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope><sys_update_name>sys_sg_ui_parameter_a3dd3d50c3fc311066fa241ce001315e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-17 18:52:02</sys_updated_on><table_name>x_1070541_case_0_case</table_name><virtual_field_value>false</virtual_field_value></sys_sg_ui_parameter><sys_translated_text action="delete_multiple" query="documentkey=a3dd3d50c3fc311066fa241ce001315e"/></record_update>]]></payload>
+        <payload_hash>-1815612193</payload_hash>
+        <record_name>Sys ID</record_name>
+        <reverted_from/>
+        <source>b17e211ec3a4311066fa241ce0013164</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 18:52:02</sys_created_on>
+        <sys_id>e3dd3d50c3fc311066fa241ce00131fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a04d722900000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 18:52:02</sys_updated_on>
+        <type>UI parameter</type>
+        <update_guid>6fdd3d5075fc311026189763655a74fd</update_guid>
+        <update_guid_history>6fdd3d5075fc311026189763655a74fd:-1815612193</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 19:35:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_ui_parameter">sys_sg_ui_parameter</sys_db_object>
+        <sys_id>23c30d119af149a18c14019a79a65179</sys_id>
+        <sys_metadata>a3dd3d50c3fc311066fa241ce001315e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sys ID</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_scope_delete display_value="">0e2cee2ef4ec4e5c84df03602f067710</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_parameter_a3dd3d50c3fc311066fa241ce001315e</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_parameter_a3dd3d50c3fc311066fa241ce001315e">e3dd3d50c3fc311066fa241ce00131fe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 19:35:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

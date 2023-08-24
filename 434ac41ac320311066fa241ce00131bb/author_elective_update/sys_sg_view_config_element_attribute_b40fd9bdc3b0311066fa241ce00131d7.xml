@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element_attribute">
+    <sys_sg_view_config_element_attribute action="DELETE">
+        <description>text_04_FieldLabel</description>
+        <name display_value="FieldLabel">c90fd1c2b7321010df65f6efce11a9d2</name>
+        <sys_class_name>sys_sg_view_config_element_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-22 08:28:06</sys_created_on>
+        <sys_id>b40fd9bdc3b0311066fa241ce00131d7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>c90fd1c2b7321010df65f6efce11a9d2</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_attribute_b40fd9bdc3b0311066fa241ce00131d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-22 09:49:55</sys_updated_on>
+        <translated_value/>
+        <value>location.company</value>
+        <view_config_element display_value="text_04_element">b75e99bdc3b0311066fa241ce001314d</view_config_element>
+    </sys_sg_view_config_element_attribute>
+    <sys_translated_text action="DELETE" query="documentkey=b40fd9bdc3b0311066fa241ce00131d7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case">434ac41ac320311066fa241ce00131bb</application>
+        <file_path/>
+        <instance_id>b3deb2d6dbcf4110f492c597059619c2</instance_id>
+        <instance_name>dev126550</instance_name>
+        <name>sys_sg_view_config_element_attribute_b40fd9bdc3b0311066fa241ce00131d7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element_attribute"><sys_sg_view_config_element_attribute action="INSERT_OR_UPDATE"><description>text_04_FieldLabel</description><name display_value="FieldLabel">c90fd1c2b7321010df65f6efce11a9d2</name><sys_class_name>sys_sg_view_config_element_attribute</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-22 08:28:06</sys_created_on><sys_id>b40fd9bdc3b0311066fa241ce00131d7</sys_id><sys_mod_count>1</sys_mod_count><sys_name>c90fd1c2b7321010df65f6efce11a9d2</sys_name><sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package><sys_policy/><sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope><sys_update_name>sys_sg_view_config_element_attribute_b40fd9bdc3b0311066fa241ce00131d7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-22 09:49:55</sys_updated_on><translated_value/><value>location.company</value><view_config_element display_value="text_04_element">b75e99bdc3b0311066fa241ce001314d</view_config_element></sys_sg_view_config_element_attribute><sys_translated_text action="delete_multiple" query="documentkey=b40fd9bdc3b0311066fa241ce00131d7"/></record_update>]]></payload>
+        <payload_hash>1445591542</payload_hash>
+        <record_name>c90fd1c2b7321010df65f6efce11a9d2</record_name>
+        <reverted_from/>
+        <source>b17e211ec3a4311066fa241ce0013164</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-22 09:49:56</sys_created_on>
+        <sys_id>d7b1fdf1c334311066fa241ce0013190</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a1ca69e2d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-22 09:49:56</sys_updated_on>
+        <type>Card element attribute</type>
+        <update_guid>dfb1fdf1da343110e32d1454ecdc3b8f</update_guid>
+        <update_guid_history>dfb1fdf1da343110e32d1454ecdc3b8f:1445591542,740fd9bd24b0311083adfd9b1de5b2d9:592535200</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-23 04:31:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_view_config_element_attribute">sys_sg_view_config_element_attribute</sys_db_object>
+        <sys_id>09bea9d4041d43a5847a3684cebc3ba9</sys_id>
+        <sys_metadata>b40fd9bdc3b0311066fa241ce00131d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c90fd1c2b7321010df65f6efce11a9d2</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_scope_delete display_value="">0e2cee2ef4ec4e5c84df03602f067710</sys_scope_delete>
+        <sys_update_name>sys_sg_view_config_element_attribute_b40fd9bdc3b0311066fa241ce00131d7</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_config_element_attribute_b40fd9bdc3b0311066fa241ce00131d7">d7b1fdf1c334311066fa241ce0013190</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-23 04:31:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

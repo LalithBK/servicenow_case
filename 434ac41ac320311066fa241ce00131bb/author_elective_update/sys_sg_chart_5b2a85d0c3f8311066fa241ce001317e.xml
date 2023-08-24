@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_chart">
+    <sys_sg_chart action="DELETE">
+        <jump_to_screen display_value="Nav Rejected Cases - Chart">6f2a85d0c3f8311066fa241ce0013186</jump_to_screen>
+        <name>Rejected Cases</name>
+        <report/>
+        <sys_class_name>sys_sg_chart</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 15:06:12</sys_created_on>
+        <sys_id>5b2a85d0c3f8311066fa241ce001317e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Rejected Cases</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_sg_chart_5b2a85d0c3f8311066fa241ce001317e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 15:06:12</sys_updated_on>
+        <title/>
+        <type>PA</type>
+        <widget display_value="Rejected">adcbad7587a3230047d84c2c59cb0bbf</widget>
+    </sys_sg_chart>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case">434ac41ac320311066fa241ce00131bb</application>
+        <file_path/>
+        <instance_id>b3deb2d6dbcf4110f492c597059619c2</instance_id>
+        <instance_name>dev126550</instance_name>
+        <name>sys_sg_chart_5b2a85d0c3f8311066fa241ce001317e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_chart"><sys_sg_chart action="INSERT_OR_UPDATE"><jump_to_screen display_value="Nav Rejected Cases - Chart">6f2a85d0c3f8311066fa241ce0013186</jump_to_screen><name>Rejected Cases</name><report/><sys_class_name>sys_sg_chart</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-17 15:06:12</sys_created_on><sys_id>5b2a85d0c3f8311066fa241ce001317e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Rejected Cases</sys_name><sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package><sys_policy/><sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope><sys_update_name>sys_sg_chart_5b2a85d0c3f8311066fa241ce001317e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-17 15:06:12</sys_updated_on><title/><type>PA</type><widget display_value="Rejected">adcbad7587a3230047d84c2c59cb0bbf</widget></sys_sg_chart></record_update>]]></payload>
+        <payload_hash>-1656620157</payload_hash>
+        <record_name>Rejected Cases</record_name>
+        <reverted_from/>
+        <source>b17e211ec3a4311066fa241ce0013164</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 15:06:12</sys_created_on>
+        <sys_id>a72ac9d0c3f8311066fa241ce0013150</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a0408619c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 15:06:12</sys_updated_on>
+        <type>Analytics preview</type>
+        <update_guid>6f2ac9d02df83110eb82af091839414f</update_guid>
+        <update_guid_history>6f2ac9d02df83110eb82af091839414f:-1656620157,d72a85d078f831109eb091bc93e8b880:-1249778876</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 15:11:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_chart">sys_sg_chart</sys_db_object>
+        <sys_id>0323b12a46284fe48099147eb97d2710</sys_id>
+        <sys_metadata>5b2a85d0c3f8311066fa241ce001317e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rejected Cases</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_scope_delete display_value="">0e2cee2ef4ec4e5c84df03602f067710</sys_scope_delete>
+        <sys_update_name>sys_sg_chart_5b2a85d0c3f8311066fa241ce001317e</sys_update_name>
+        <sys_update_version display_value="sys_sg_chart_5b2a85d0c3f8311066fa241ce001317e">a72ac9d0c3f8311066fa241ce0013150</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 15:11:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

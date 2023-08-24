@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>699a6f009b743110ac003b61f8f43138</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>case-mobile</path>
+        <root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 08:08:34</sys_created_on>
+        <sys_id>699a6f00b7743110df15d238a08ed532</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Case Mobile</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_ux_page_registry_699a6f00b7743110df15d238a08ed532</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 08:08:34</sys_updated_on>
+        <title>Case Mobile</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case">434ac41ac320311066fa241ce00131bb</application>
+        <file_path/>
+        <instance_id>b3deb2d6dbcf4110f492c597059619c2</instance_id>
+        <instance_name>dev126550</instance_name>
+        <name>sys_ux_page_registry_699a6f00b7743110df15d238a08ed532</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>699a6f009b743110ac003b61f8f43138</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>case-mobile</path><root_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-17 08:08:34</sys_created_on><sys_id>699a6f00b7743110df15d238a08ed532</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Case Mobile</sys_name><sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package><sys_policy/><sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope><sys_update_name>sys_ux_page_registry_699a6f00b7743110df15d238a08ed532</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-17 08:08:34</sys_updated_on><title>Case Mobile</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>1244400320</payload_hash>
+        <record_name>Case Mobile</record_name>
+        <reverted_from/>
+        <source>edc3e603c310311066fa241ce0013168</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-08-01 14:09:33</sys_created_on>
+        <sys_id>21ba6340c374311066fa241ce0013181</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>189b16ec1480000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Application</type>
+        <update_guid>edba634010743110414e47528dad7e80</update_guid>
+        <update_guid_history>edba634010743110414e47528dad7e80:1244400320</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-17 08:09:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>274d1c8fa4ea4f30bbd27a87976d4900</sys_id>
+        <sys_metadata>699a6f00b7743110df15d238a08ed532</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Case Mobile</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_scope_delete display_value="">0e2cee2ef4ec4e5c84df03602f067710</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_699a6f00b7743110df15d238a08ed532</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_699a6f00b7743110df15d238a08ed532">21ba6340c374311066fa241ce0013181</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-17 08:09:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

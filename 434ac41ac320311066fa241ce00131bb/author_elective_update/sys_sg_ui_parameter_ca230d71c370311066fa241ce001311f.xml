@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter">
+    <sys_sg_ui_parameter action="DELETE">
+        <button/>
+        <button_parent_table/>
+        <carried>false</carried>
+        <constant/>
+        <default_value/>
+        <default_value_type>none</default_value_type>
+        <field_name/>
+        <input_source>auto</input_source>
+        <input_style>inline</input_style>
+        <input_type>user</input_type>
+        <mandatory>false</mandatory>
+        <max_entries/>
+        <multi_entry>false</multi_entry>
+        <multi_select>false</multi_select>
+        <name>User</name>
+        <order>1</order>
+        <parameter_type>screen</parameter_type>
+        <placeholder/>
+        <screen display_value="User Details">24520171c370311066fa241ce0013162</screen>
+        <search_type>starts_with</search_type>
+        <source_field/>
+        <sys_class_name>sys_sg_ui_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-22 06:26:24</sys_created_on>
+        <sys_id>ca230d71c370311066fa241ce001311f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_sg_ui_parameter_ca230d71c370311066fa241ce001311f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-22 06:26:24</sys_updated_on>
+        <table_name/>
+        <virtual_field_value>false</virtual_field_value>
+    </sys_sg_ui_parameter>
+    <sys_translated_text action="DELETE" query="documentkey=ca230d71c370311066fa241ce001311f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case">434ac41ac320311066fa241ce00131bb</application>
+        <file_path/>
+        <instance_id>b3deb2d6dbcf4110f492c597059619c2</instance_id>
+        <instance_name>dev126550</instance_name>
+        <name>sys_sg_ui_parameter_ca230d71c370311066fa241ce001311f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_parameter"><sys_sg_ui_parameter action="INSERT_OR_UPDATE"><button/><button_parent_table/><carried>false</carried><constant/><default_value/><default_value_type>none</default_value_type><field_name/><input_source>auto</input_source><input_style>inline</input_style><input_type>user</input_type><mandatory>false</mandatory><max_entries/><multi_entry>false</multi_entry><multi_select>false</multi_select><name>User</name><order>1</order><parameter_type>screen</parameter_type><placeholder/><screen display_value="User Details">24520171c370311066fa241ce0013162</screen><search_type>starts_with</search_type><source_field/><sys_class_name>sys_sg_ui_parameter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-22 06:26:24</sys_created_on><sys_id>ca230d71c370311066fa241ce001311f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>User</sys_name><sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package><sys_policy/><sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope><sys_update_name>sys_sg_ui_parameter_ca230d71c370311066fa241ce001311f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-22 06:26:24</sys_updated_on><table_name/><virtual_field_value>false</virtual_field_value></sys_sg_ui_parameter><sys_translated_text action="delete_multiple" query="documentkey=ca230d71c370311066fa241ce001311f"/></record_update>]]></payload>
+        <payload_hash>1819498836</payload_hash>
+        <record_name>User</record_name>
+        <reverted_from/>
+        <source>b17e211ec3a4311066fa241ce0013164</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-22 06:26:24</sys_created_on>
+        <sys_id>46230d71c370311066fa241ce0013123</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a1bec4a290000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-22 06:26:24</sys_updated_on>
+        <type>UI parameter</type>
+        <update_guid>8e230d713570311001fa43b5eeed8b22</update_guid>
+        <update_guid_history>8e230d713570311001fa43b5eeed8b22:1819498836</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-22 08:33:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_ui_parameter">sys_sg_ui_parameter</sys_db_object>
+        <sys_id>1290986124d7476c85b64b3d467a4331</sys_id>
+        <sys_metadata>ca230d71c370311066fa241ce001311f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>User</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_scope_delete display_value="">0e2cee2ef4ec4e5c84df03602f067710</sys_scope_delete>
+        <sys_update_name>sys_sg_ui_parameter_ca230d71c370311066fa241ce001311f</sys_update_name>
+        <sys_update_version display_value="sys_sg_ui_parameter_ca230d71c370311066fa241ce001311f">46230d71c370311066fa241ce0013123</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-22 08:33:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
