@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="DELETE">
+        <data_item_field_name>mobile_phone</data_item_field_name>
+        <field_name/>
+        <hidden>false</hidden>
+        <order>700</order>
+        <record_id_field/>
+        <screen display_value="Details">a8520171c370311066fa241ce0013165</screen>
+        <screen_data_item_table>sys_user</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-22 06:24:00</sys_created_on>
+        <sys_id>ba924571c370311066fa241ce0013136</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mobile_phone</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_sg_screen_field_ba924571c370311066fa241ce0013136</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-22 06:24:00</sys_updated_on>
+        <type>auto</type>
+        <value_only>false</value_only>
+    </sys_sg_screen_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case">434ac41ac320311066fa241ce00131bb</application>
+        <file_path/>
+        <instance_id>b3deb2d6dbcf4110f492c597059619c2</instance_id>
+        <instance_name>dev126550</instance_name>
+        <name>sys_sg_screen_field_ba924571c370311066fa241ce0013136</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field"><sys_sg_screen_field action="INSERT_OR_UPDATE"><data_item_field_name>mobile_phone</data_item_field_name><field_name/><hidden>false</hidden><order>700</order><record_id_field/><screen display_value="Details">a8520171c370311066fa241ce0013165</screen><screen_data_item_table>sys_user</screen_data_item_table><sys_class_name>sys_sg_screen_field</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-22 06:24:00</sys_created_on><sys_id>ba924571c370311066fa241ce0013136</sys_id><sys_mod_count>0</sys_mod_count><sys_name>mobile_phone</sys_name><sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package><sys_policy/><sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope><sys_update_name>sys_sg_screen_field_ba924571c370311066fa241ce0013136</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-22 06:24:00</sys_updated_on><type>auto</type><value_only>false</value_only></sys_sg_screen_field></record_update>]]></payload>
+        <payload_hash>-900338444</payload_hash>
+        <record_name>mobile_phone</record_name>
+        <reverted_from/>
+        <source>b17e211ec3a4311066fa241ce0013164</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-22 06:24:00</sys_created_on>
+        <sys_id>f2924571c370311066fa241ce0013138</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a1bea16ec0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-22 06:24:00</sys_updated_on>
+        <type>Screen fields</type>
+        <update_guid>3e92457136703110e55d4d093c63e137</update_guid>
+        <update_guid_history>3e92457136703110e55d4d093c63e137:-900338444</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-22 08:59:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_screen_field">sys_sg_screen_field</sys_db_object>
+        <sys_id>2e0a8732e06d4ea8bb67d1ab19a50ec1</sys_id>
+        <sys_metadata>ba924571c370311066fa241ce0013136</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mobile_phone</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_scope_delete display_value="">0e2cee2ef4ec4e5c84df03602f067710</sys_scope_delete>
+        <sys_update_name>sys_sg_screen_field_ba924571c370311066fa241ce0013136</sys_update_name>
+        <sys_update_version display_value="sys_sg_screen_field_ba924571c370311066fa241ce0013136">f2924571c370311066fa241ce0013138</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-22 08:59:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

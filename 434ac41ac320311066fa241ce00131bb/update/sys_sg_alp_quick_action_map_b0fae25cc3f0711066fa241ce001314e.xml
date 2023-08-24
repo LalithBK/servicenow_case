@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_alp_quick_action_map">
     <sys_sg_alp_quick_action_map action="INSERT_OR_UPDATE">
-        <applet_launcher display_value="Case Module">fcfae25cc3f0711066fa241ce0013148</applet_launcher>
+        <applet_launcher/>
         <order>10</order>
         <quick_action_button display_value="Create Case Record">7cfae25cc3f0711066fa241ce001314b</quick_action_button>
         <sys_class_name>sys_sg_alp_quick_action_map</sys_class_name>

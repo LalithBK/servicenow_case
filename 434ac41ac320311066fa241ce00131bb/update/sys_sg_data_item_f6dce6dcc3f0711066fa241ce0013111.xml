@@ -7,20 +7,21 @@
         <name>Landing page - DI </name>
         <offline_query_condition/>
         <offline_query_condition_script/>
-        <query_condition/>
+        <query_condition table="sys_user">user_name=javascript:gs.getUserId()<item endquery="false" field="user_name" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserId()"/>
+        </query_condition>
         <query_condition_script/>
         <sys_class_name>sys_sg_data_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-17 22:17:20</sys_created_on>
         <sys_id>f6dce6dcc3f0711066fa241ce0013111</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Landing page - DI </sys_name>
         <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
         <sys_update_name>sys_sg_data_item_f6dce6dcc3f0711066fa241ce0013111</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-17 22:24:11</sys_updated_on>
+        <sys_updated_on>2023-08-22 05:41:35</sys_updated_on>
         <table>sys_user</table>
     </sys_sg_data_item>
     <sys_translated_text action="delete_multiple" query="documentkey=f6dce6dcc3f0711066fa241ce0013111"/>

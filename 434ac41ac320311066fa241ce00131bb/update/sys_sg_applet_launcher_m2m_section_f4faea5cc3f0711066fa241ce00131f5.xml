@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
     <sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE">
-        <applet_launcher display_value="Case Module">fcfae25cc3f0711066fa241ce0013148</applet_launcher>
+        <applet_launcher/>
         <order>20</order>
         <section display_value="All Cases">30faea5cc3f0711066fa241ce00131f4</section>
         <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>

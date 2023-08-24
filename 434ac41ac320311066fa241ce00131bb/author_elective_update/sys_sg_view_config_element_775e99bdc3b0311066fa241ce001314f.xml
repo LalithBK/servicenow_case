@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="DELETE">
+        <name>text_05_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-22 08:25:19</sys_created_on>
+        <sys_id>775e99bdc3b0311066fa241ce001314f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_05_element</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_775e99bdc3b0311066fa241ce001314f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-22 08:25:19</sys_updated_on>
+        <view_config display_value="User Details Card">ec52c1fdc330311066fa241ce0013135</view_config>
+        <view_template_slot display_value="text_05">b4f4c13041275010f877183fc9b8be56</view_template_slot>
+    </sys_sg_view_config_element>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case">434ac41ac320311066fa241ce00131bb</application>
+        <file_path/>
+        <instance_id>b3deb2d6dbcf4110f492c597059619c2</instance_id>
+        <instance_name>dev126550</instance_name>
+        <name>sys_sg_view_config_element_775e99bdc3b0311066fa241ce001314f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element"><sys_sg_view_config_element action="INSERT_OR_UPDATE"><name>text_05_element</name><sys_class_name>sys_sg_view_config_element</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-22 08:25:19</sys_created_on><sys_id>775e99bdc3b0311066fa241ce001314f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>text_05_element</sys_name><sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package><sys_policy/><sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope><sys_update_name>sys_sg_view_config_element_775e99bdc3b0311066fa241ce001314f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-22 08:25:19</sys_updated_on><view_config display_value="User Details Card">ec52c1fdc330311066fa241ce0013135</view_config><view_template_slot display_value="text_05">b4f4c13041275010f877183fc9b8be56</view_template_slot></sys_sg_view_config_element></record_update>]]></payload>
+        <payload_hash>756364866</payload_hash>
+        <record_name>text_05_element</record_name>
+        <reverted_from/>
+        <source>b17e211ec3a4311066fa241ce0013164</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-22 08:25:19</sys_created_on>
+        <sys_id>335e99bdc3b0311066fa241ce0013151</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a1c5926660000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-22 08:25:19</sys_updated_on>
+        <type>Card element</type>
+        <update_guid>7b5e99bda3b03110f02c8796f38cf550</update_guid>
+        <update_guid_history>7b5e99bda3b03110f02c8796f38cf550:756364866</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-23 04:31:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_view_config_element">sys_sg_view_config_element</sys_db_object>
+        <sys_id>0011b192352949b0971cfb17d2267c90</sys_id>
+        <sys_metadata>775e99bdc3b0311066fa241ce001314f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_05_element</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_scope_delete display_value="">0e2cee2ef4ec4e5c84df03602f067710</sys_scope_delete>
+        <sys_update_name>sys_sg_view_config_element_775e99bdc3b0311066fa241ce001314f</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_config_element_775e99bdc3b0311066fa241ce001314f">335e99bdc3b0311066fa241ce0013151</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-23 04:31:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

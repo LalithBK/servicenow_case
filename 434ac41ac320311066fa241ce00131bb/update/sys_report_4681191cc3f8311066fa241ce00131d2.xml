@@ -78,7 +78,7 @@
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
         <report_source/>
-        <roles/>
+        <roles>snc_internal</roles>
         <row/>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
@@ -106,14 +106,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-08-17 15:38:19</sys_created_on>
         <sys_id>4681191cc3f8311066fa241ce00131d2</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Case Criticality</sys_name>
         <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
         <sys_update_name>sys_report_4681191cc3f8311066fa241ce00131d2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-08-17 22:05:24</sys_updated_on>
+        <sys_updated_on>2023-08-24 05:59:01</sys_updated_on>
         <table>x_1070541_case_0_case</table>
         <title>Case Criticality</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

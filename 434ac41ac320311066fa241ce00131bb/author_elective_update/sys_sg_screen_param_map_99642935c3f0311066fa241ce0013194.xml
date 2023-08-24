@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_param_map">
+    <sys_sg_screen_param_map action="DELETE">
+        <item_parameter display_value="User">60e101fdc330311066fa241ce0013157</item_parameter>
+        <screen display_value="User Details">24520171c370311066fa241ce0013162</screen>
+        <sys_class_name>sys_sg_screen_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-22 08:51:38</sys_created_on>
+        <sys_id>99642935c3f0311066fa241ce0013194</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>60e101fdc330311066fa241ce0013157</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_sg_screen_param_map_99642935c3f0311066fa241ce0013194</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-22 08:51:38</sys_updated_on>
+        <ui_parameter display_value="User">5ef3adf1c3f0311066fa241ce0013138</ui_parameter>
+    </sys_sg_screen_param_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case">434ac41ac320311066fa241ce00131bb</application>
+        <file_path/>
+        <instance_id>b3deb2d6dbcf4110f492c597059619c2</instance_id>
+        <instance_name>dev126550</instance_name>
+        <name>sys_sg_screen_param_map_99642935c3f0311066fa241ce0013194</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_param_map"><sys_sg_screen_param_map action="INSERT_OR_UPDATE"><item_parameter display_value="User">60e101fdc330311066fa241ce0013157</item_parameter><screen display_value="User Details">24520171c370311066fa241ce0013162</screen><sys_class_name>sys_sg_screen_param_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-22 08:51:38</sys_created_on><sys_id>99642935c3f0311066fa241ce0013194</sys_id><sys_mod_count>0</sys_mod_count><sys_name>60e101fdc330311066fa241ce0013157</sys_name><sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package><sys_policy/><sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope><sys_update_name>sys_sg_screen_param_map_99642935c3f0311066fa241ce0013194</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-22 08:51:38</sys_updated_on><ui_parameter display_value="User">5ef3adf1c3f0311066fa241ce0013138</ui_parameter></sys_sg_screen_param_map></record_update>]]></payload>
+        <payload_hash>-1470558956</payload_hash>
+        <record_name>60e101fdc330311066fa241ce0013157</record_name>
+        <reverted_from/>
+        <source>b17e211ec3a4311066fa241ce0013164</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-22 08:51:38</sys_created_on>
+        <sys_id>d1642935c3f0311066fa241ce0013197</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a1c713ede0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-22 08:51:38</sys_updated_on>
+        <type>Screen parameters mapping</type>
+        <update_guid>1d642935aef031109571877c66bcfc96</update_guid>
+        <update_guid_history>1d642935aef031109571877c66bcfc96:-1470558956</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-22 08:56:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_screen_param_map">sys_sg_screen_param_map</sys_db_object>
+        <sys_id>37c914d109dc4b40afed057c06287239</sys_id>
+        <sys_metadata>99642935c3f0311066fa241ce0013194</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>60e101fdc330311066fa241ce0013157</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_scope_delete display_value="">0e2cee2ef4ec4e5c84df03602f067710</sys_scope_delete>
+        <sys_update_name>sys_sg_screen_param_map_99642935c3f0311066fa241ce0013194</sys_update_name>
+        <sys_update_version display_value="sys_sg_screen_param_map_99642935c3f0311066fa241ce0013194">d1642935c3f0311066fa241ce0013197</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-22 08:56:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
