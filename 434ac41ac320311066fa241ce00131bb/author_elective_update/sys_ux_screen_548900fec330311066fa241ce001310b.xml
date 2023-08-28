@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="Case Workspace Config">ff4c981e3b6031106b371392a528b354</app_config>
+        <description>Inbox sidebar screen for case workspace</description>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Inbox">a19e0026c3f4311066fa241ce0013121</macroponent>
+        <macroponent_config>{ "bare": true }</macroponent_config>
+        <name>Inbox</name>
+        <order>10</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Inbox">1cdb655cc36f10101d590cf06e40dde4</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-25 04:52:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>548900fec330311066fa241ce001310b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inbox</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_ux_screen_548900fec330311066fa241ce001310b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-25 04:52:11</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="DELETE" query="documentkey=548900fec330311066fa241ce001310b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Case">434ac41ac320311066fa241ce00131bb</application>
+        <file_path/>
+        <instance_id>b3deb2d6dbcf4110f492c597059619c2</instance_id>
+        <instance_name>dev126550</instance_name>
+        <name>sys_ux_screen_548900fec330311066fa241ce001310b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="Case Workspace Config">ff4c981e3b6031106b371392a528b354</app_config><description>Inbox sidebar screen for case workspace</description><event_mappings>[ ]</event_mappings><macroponent display_value="Inbox">a19e0026c3f4311066fa241ce0013121</macroponent><macroponent_config>{ "bare": true }</macroponent_config><name>Inbox</name><order>10</order><parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><required_translations>[ ]</required_translations><rollback_screen/><screen_condition/><screen_type display_value="Inbox">1cdb655cc36f10101d590cf06e40dde4</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-25 04:52:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>548900fec330311066fa241ce001310b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Inbox</sys_name><sys_overrides/><sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package><sys_policy/><sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope><sys_update_name>sys_ux_screen_548900fec330311066fa241ce001310b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-25 04:52:11</sys_updated_on></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=548900fec330311066fa241ce001310b"/></record_update>]]></payload>
+        <payload_hash>-597003890</payload_hash>
+        <record_name>Inbox</record_name>
+        <reverted_from/>
+        <source>b17e211ec3a4311066fa241ce0013164</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-25 04:52:12</sys_created_on>
+        <sys_id>9f5ac4fec330311066fa241ce00131cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a2b091d030000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-25 04:52:12</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>d75ac4fe49303110433a2e396daa44cd</update_guid>
+        <update_guid_history>d75ac4fe49303110433a2e396daa44cd:-597003890</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-25 06:11:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>be68d149759f430b9263ed938ff18679</sys_id>
+        <sys_metadata>548900fec330311066fa241ce001310b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inbox</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_scope_delete display_value="">0e2cee2ef4ec4e5c84df03602f067710</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_548900fec330311066fa241ce001310b</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_548900fec330311066fa241ce001310b">9f5ac4fec330311066fa241ce00131cd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-25 06:11:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

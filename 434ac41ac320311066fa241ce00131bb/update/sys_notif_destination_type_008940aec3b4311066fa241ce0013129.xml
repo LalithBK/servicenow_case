@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notif_destination_type">
+    <sys_notif_destination_type action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <channel display_value="Case to Google connection Notification C">0c8940aec3b4311066fa241ce0013125</channel>
+        <display_order/>
+        <name>Case to Google connection</name>
+        <send_by_default>true</send_by_default>
+        <sys_class_name>sys_notif_destination_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-24 10:09:57</sys_created_on>
+        <sys_id>008940aec3b4311066fa241ce0013129</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Case to Google connection</sys_name>
+        <sys_package display_value="Case" source="x_1070541_case_0">434ac41ac320311066fa241ce00131bb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Case">434ac41ac320311066fa241ce00131bb</sys_scope>
+        <sys_update_name>sys_notif_destination_type_008940aec3b4311066fa241ce0013129</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-24 10:09:57</sys_updated_on>
+    </sys_notif_destination_type>
+</record_update>
